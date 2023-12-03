@@ -149,7 +149,7 @@ export default function Home() {
                         </div>
 
                         <div className='grid grid-col-3'>
-                            <Link href="https://github.com/WinsDominoes" className="">
+                            <Link href="#">
                                 <button className="bg-[#5865F2] font-bold rounded-lg px-4 py-2.5 shadow-lg flex flex-row gap-2 transition ease-in-out delay-150 hover:scale-110 duration-300">
                                     <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className='w-7 h-7'>
                                         <title>Discord</title>
