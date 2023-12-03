@@ -148,7 +148,7 @@ export default function Hobbies() {
                                 </div>
                             </div>
                             <div className="flex col-span-6 justify-center">
-                                <p className='text-sm text-slate-400'>Photos by <Link href="https://www.facebook.com/attaste.rmutt"><span className="underline">ATTASTE</span></Link> & <Link href="https://www.facebook.com/Fashionrmutt"><span className="underline">FDCI</span></Link></p>
+                                <p className='text-sm text-slate-600 dark:text-slate-400'>Photos by <Link href="https://www.facebook.com/attaste.rmutt"><span className="underline">ATTASTE</span></Link> & <Link href="https://www.facebook.com/Fashionrmutt"><span className="underline">FDCI</span></Link></p>
                             </div>
                         </div>
                     </div>

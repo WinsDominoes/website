@@ -27,7 +27,7 @@ const Photo = ({src, href, alt, dim}: any) => {
                             alt={alt} 
                         />
     
-                        <span className="text-xs m-2 text-zinc-400">{alt}</span>
+                        <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">{alt}</span>
                     </div>
                 </div>  
             </div>    
@@ -50,7 +50,7 @@ const Photo = ({src, href, alt, dim}: any) => {
                                 alt={alt} 
                             />
     
-                            <span className="text-xs m-2 text-zinc-400">{alt}</span>
+                            <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">{alt}</span>
                         </div>
                     </div>
                 </Link>   

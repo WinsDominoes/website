@@ -233,7 +233,7 @@ export default function Projects() {
                                             className='rounded'
                                             src="/images/photos/school-work/robotics/lego-league/robot-movement.mp4">
                                         </video>
-                                        <span className="text-xs m-2 text-zinc-400">First LEGO League Robot Test Run</span>
+                                        <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">First LEGO League Robot Test Run</span>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center">
@@ -247,7 +247,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="col-span-6 flex justify-center">
-                            <p className="text-sm text-zinc-400">
+                            <p className="text-sm text-zinc-600 dark:text-zinc-400">
                                 Photos by <Link href="https://www.facebook.com/rugbyschoolthailand" className="underline hover:text-zinc-500">Rugby School Thailand</Link>
                             </p>
                         </div>
@@ -275,7 +275,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="col-span-6 flex justify-center">
-                            <p className="text-sm text-zinc-400">
+                            <p className="text-sm text-zinc-600 dark:text-zinc-400">
                                 Photos by <Link href="https://www.facebook.com/rugbyschoolthailand" className="underline hover:text-zinc-500">Rugby School Thailand</Link>
                             </p>
                         </div>
@@ -309,7 +309,7 @@ export default function Projects() {
                         </div>
 
                         <div className="col-span-6 flex justify-center">
-                            <p className="text-sm text-zinc-400">
+                            <p className="text-sm text-zinc-600 dark:text-zinc-400">
                                 Photos by <Link href="https://www.facebook.com/rugbyschoolthailand" className="underline hover:text-zinc-500">Rugby School Thailand</Link>
                             </p>
                         </div>
