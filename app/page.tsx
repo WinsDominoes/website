@@ -11,7 +11,7 @@ export default function Home() {
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
-                    <div className="col-span-1 max-lg:collapse">
+                    <div className="col-span-1 max-lg:hidden">
                         <Image 
                             src="/images/picture.png"
                             width={200}
