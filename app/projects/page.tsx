@@ -151,7 +151,7 @@ export default function Projects() {
                                 </div>
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/software/photosphere.jpg" href="https://map.moomoo.me" alt="PhotoSphereStudio"></Photo>
+                                        <Photo src="/images/photos/software/photosphere.jpg" href="https://maps.moomoo.me" alt="PhotoSphereStudio"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center">
