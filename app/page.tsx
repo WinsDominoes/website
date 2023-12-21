@@ -49,7 +49,7 @@ export default function Home() {
                         </div>
                         <div className="grid gap-4">
                             <div>
-                                <Photo src="/images/photos/cosplay/tasm-2-spider-man-2-2.jpg" href="/hobbies" alt="Spider-Man 2 PS5 Event"></Photo>
+                                <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" href="/projects" alt="EMPower Enginering Co.,Ltd"></Photo>
                             </div>
                             <div>
                                 <Photo src="/images/photos/hardware/homelab.jpg" href="/projects" alt="Homelab"></Photo>
@@ -60,7 +60,7 @@ export default function Home() {
                                 <Photo src="/images/photos/robotics/robot.jpg" href="/projects" alt="LEGO League"></Photo>
                             </div>
                             <div>
-                                <Photo src="/images/photos/cosplay/tasm-2-spider-man-2.jpg" href="/hobbies" alt="The Amazing Spider-Man 2"></Photo>
+                                <Photo src="/images/photos/cosplay/tasm-2-spider-man-2.jpg" href="/hobbies" alt="Spider-Man 2 PS5 Event"></Photo>
                             </div>
                         </div>
                         <div className="grid gap-4 content-center">
