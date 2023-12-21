@@ -142,15 +142,12 @@ export default function Projects() {
                                 <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
                                     <div className="col-span-2 flex flex-col">
                                         <Progress text="Windows" progress="100" />
-                                        <Progress text="Windows Server" progress="100" />
                                     </div>
                                     <div className="col-span-2 flex flex-col">
-                                        <Progress text="Debian-based Linux Distros" progress="100" />
-                                        <Progress text="RHEL-based Linux Distros" progress="90" />
+                                        <Progress text="Linux Distros" progress="100" />
                                     </div>
                                     <div className="col-span-2 flex flex-col">
-                                        <Progress text="FreeBSD" progress="80" />
-                                        <Progress text="OpenBSD" progress="80" />
+                                        <Progress text="BSD" progress="90" />
                                     </div>
                                 </div> 
                         </div>
@@ -227,7 +224,7 @@ export default function Projects() {
                                 <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
                                     <div className="col-span-2 flex flex-col">
                                         <Progress text="HTML" progress="100" />
-                                        <Progress text="CSS" progress="75" />
+                                        <Progress text="CSS" progress="90" />
                                         <Progress text="JavaScript" progress="85" />
                                     </div>
                                     <div className="col-span-2 flex flex-col">
