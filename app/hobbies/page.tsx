@@ -92,25 +92,11 @@ export default function Hobbies() {
 
                 <div>
                     <div className='my-2'>
-                        <h2 className="text-3xl font-bold my-2">Graphic Design</h2>       
+                        <h2 className="text-3xl font-bold my-2">Graphics Design</h2>       
                         <p className="text-base">I make various types of work, ranging from <span className="font-bold underline decoration-2 decoration-indigo-500">infographics</span> to <span className="font-bold underline decoration-2 decoration-pink-500">fashion show</span> logos. </p> 
                     </div>
                          
                     <div className="grid grid-cols-6 gap-4">
-                        <div className="col-span-6">
-                                <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Adobe Illustrator" progress="60" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Krita" progress="90" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="paint.net" progress="90" />
-                                    </div>
-                                </div>
-                        </div>
-
                         <div className="col-span-6">
                             <div className="my-2">
                                 <h2 className="text-2xl font-bold my-2">ATTASTE - 5th Generation</h2> 

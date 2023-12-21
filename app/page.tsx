@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-4 max-sm:hidden gap-6">
                         <div className="grid gap-4 content-center">
                             <div>
                                 <Photo src="/images/photos/iot/raspberrypi.jpg" href="/projects" alt="Raspberry Pi"></Photo>
@@ -56,7 +56,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="grid gap-4">
-                            <div>
+                            <div className="mt-12">
                                 <Photo src="/images/photos/robotics/robot.jpg" href="/projects" alt="LEGO League"></Photo>
                             </div>
                             <div>
@@ -70,6 +70,42 @@ export default function Home() {
                         </div>
                     </div>
 
+                    <div className="hidden max-sm:grid max-sm:grid-cols-2 max-sm:gap-6">
+                        <div className="grid gap-4 content-center">
+                            <div>
+                                <Photo src="/images/photos/iot/raspberrypi.jpg" href="/projects" alt="Raspberry Pi"></Photo>
+                            </div>
+                            <div>
+                                <Photo src="/images/photos/hardware/homelab.jpg" href="/projects" alt="Homelab"></Photo>
+                            </div>
+                        </div>
+                        <div className="grid gap-4">
+                            <div>
+                                <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" href="/projects" alt="EMPower Enginering Co.,Ltd"></Photo>
+                            </div>
+                            <div>
+                                <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" href="/projects" alt="EMPower Enginering Co.,Ltd"></Photo>
+                            </div>
+                        </div>
+                        <div className="grid gap-4">
+                            <div>
+                                <Photo src="/images/photos/hardware/hdd.jpg" href="/projects" alt="Storage Server"></Photo>
+                            </div>
+                            <div>
+                                <Photo src="/images/photos/cosplay/tasm-2-spider-man-2.jpg" href="/hobbies" alt="Spider-Man 2 PS5 Event"></Photo>
+                            </div>
+                        </div>
+                        <div className="grid gap-4 content-center">
+                            <div>
+                                <Photo src="/images/photos/robotics/robot.jpg" href="/projects" alt="LEGO League"></Photo>
+                            </div>
+                            
+                            <div>
+                                <Photo src="/images/photos/software/tts.jpg" href="/projects" alt="Storage Server"></Photo>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="flex justify-center my-4">
                         <p className="text-lg font-bold">View my <a className="font-bold underline decoration-2 decoration-sky-500">projects</a> and <a className="font-bold underline decoration-2 decoration-pink-500">hobbies</a> by clicking on the images!</p>
                     </div>
@@ -77,7 +113,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-3 gap-4 max-md:flex max-md:flex-col justify-items-center">
                     <div className="col-span-3 justify-self-start">
-                        <p className="text-3xl font-bold">
+                        <p className="text-4xl font-bold">
                             Contact
                         </p>
                     </div>
