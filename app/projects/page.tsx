@@ -135,23 +135,15 @@ export default function Projects() {
                         <p className="text-base">In addition to business systems, I also have a homelab! My homelab equipment are inter-connected under the <Link href="https://winscloud.net"><span className="font-bold underline decoration-2 decoration-green-500">WinsCloud</span></Link> ecosystem. 
                         This is where I run most of my <span className="font-bold underline decoration-2 decoration-sky-500">self-hosting</span> instances of various <span className="font-bold underline decoration-2 decoration-indigo-500">open-source software</span> such as file storage servers, music streaming services, network monitors, and so on. </p>
                     </div>
+
+                    <div className="col-span-6 my-4">
+                        <h2 className='text-2xl font-bold'>Hardware</h2>
+                        <p className='text-base'>
+                            My homelab consists of a firewall / router, a multi-purpose server and a Raspberry Pi. The multi-purpose server is used for storage, web servers and a minecraft server. 
+                        </p>
+                    </div>
                     
                     <div className="grid grid-cols-6 gap-4">
-                        <div className="col-span-6">
-                            <h2 className="text-lg font-semibold mb-2">Operating Systems</h2>
-                                <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Windows" progress="100" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Linux Distros" progress="100" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="BSD" progress="90" />
-                                    </div>
-                                </div> 
-                        </div>
-
                         <div className="col-span-6">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <div className="grid gap-4 content-center">
@@ -183,35 +175,83 @@ export default function Projects() {
                             </div>
                         </div>
 
-                        <div className="col-span-2">
-                            <h2 className="text-lg font-semibold mb-2">Firewalls</h2>
-                            <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                <div className="col-span-6 flex flex-col">
-                                    <Progress text="pfSense / OPNsense" progress="90" />
-                                    <Progress text="RouterOS - MikroTik" progress="85" />
-                                    <Progress text="UniFiOS" progress="40" />
-                                </div>
-                            </div> 
+                        <div className="col-span-6">
+                            <h2 className='text-2xl font-bold'>Software</h2>
                         </div>
-                        <div className="col-span-2">
-                            <h2 className="text-lg font-semibold mb-2">Virtualization</h2>
-                            <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                <div className="col-span-6 flex flex-col">
-                                    <Progress text="Proxmox" progress="85" />
-                                    <Progress text="Docker" progress="70" />
-                                    <Progress text="VMWare" progress="60" />
+
+                        <div className='col-span-6'>
+                                <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
+                                    <div className="col-span-2 flex flex-col">
+                                        <Progress text="Windows" progress="100" />
+                                    </div>
+                                    <div className="col-span-2 flex flex-col">
+                                        <Progress text="Linux" progress="100" />
+                                    </div>
+                                    <div className="col-span-2 flex flex-col">
+                                        <Progress text="BSD" progress="90" />
+                                    </div>
                                 </div>
-                            </div> 
+                                <p className='text-base'>
+                                    I am able to work with Windows Server, Linux and BSD operating systems. All of these operating systems are a part of my homelab as well as my enterprise work systems.
+                                </p>
                         </div>
-                        <div className="col-span-2">
-                            <h2 className="text-lg font-semibold mb-2">Other</h2>
-                            <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                <div className="col-span-6 flex flex-col">
-                                    <Progress text="CloudFlare Zero Trust" progress="90" />
-                                    <Progress text="SMB Samba" progress="85" />
-                                    <Progress text="Git Version Control" progress="75" />
+
+                        <div className="col-span-3">
+                            <Progress text="Firewalls" progress="90" />
+                            <p className='text-base'>
+                                I have experience in configuring and managing network firewalls such as: <span className='font-bold underline decoration-2 decoration-indigo-500'>pfSense / OPNsense & MikroTik&apos;s RouterOS</span>
+                            </p>
+                        </div>
+                        <div className="col-span-3">
+                            <Progress text="Virtualization" progress="90" /> 
+                            <p className='text-base'>
+                                I am able to work with virtualization softwares such as: <span className='font-bold underline decoration-2 decoration-sky-500'>Proxmox, Docker and VMWare</span>. 
+                            </p>
+                        </div>
+
+                        <div className='col-span-6 flex flex-col'>
+                            <h2 className='text-xl font-bold'>Minecraft Server</h2>
+                            <p className='text-base'>
+                                As a fun side project, I also run a Minecraft Server called <span className='font-bold underline decoration-2 decoration-orange-500'>ASEAN SMP</span>, a server available to every Minecraft player in the Southeast Asian Region.
+                                It is currnetly running on my homelab with around 2 - 5 players daily. 
+                            </p>
+                            <ul className='list-disc ml-4'>
+                                <li>
+                                    IP: <code>mc.winsdominoes.net</code>
+                                </li>
+                                <li>
+                                    Version: 1.20.1 an above!
+                                </li>
+                            </ul>
+
+                            <div className="my-4 grid grid-cols-2 max-lg:flex max-lg:flex-col gap-6">
+                                <div className="grid content-center">
+                                    <div>
+                                        <Photo src="/images/photos/minecraft/library.png"></Photo>
+                                    </div>
+                                    <div>
+                                        <Photo src="/images/photos/minecraft/snow.png"></Photo>
+                                    </div>
                                 </div>
-                            </div> 
+                                <div className="grid content-center">
+                                    <div>
+                                        <Photo src="/images/photos/minecraft/seat.png"></Photo>
+                                    </div>
+                                    <div>
+                                        <Photo src="/images/photos/minecraft/nature.png"></Photo>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <Link href="https://discord.gg/EJBkV2SUT3" className='place-self-center'>
+                                <button className="bg-[#5865F2] text-white font-bold rounded-lg px-4 py-2.5 shadow-lg flex flex-row gap-2 transition ease-in-out delay-150 hover:scale-110 duration-300">
+                                    <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className='w-7 h-7'>
+                                        <title>Discord</title>
+                                        <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+                                    </svg>
+                                    <p className='flex flex-col justify-center text-white'>Join the Discord!</p>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -219,23 +259,20 @@ export default function Projects() {
                 <div>
                     <h2 className="text-3xl font-bold my-2">Coding</h2>               
                     <div className="grid grid-cols-6 gap-4">
-                        <div className="col-span-6">
+                        <div className="col-span-6 my-2">
                             <h2 className="text-lg font-semibold mb-2">Web Development</h2>
                                 <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="HTML" progress="100" />
-                                        <Progress text="CSS" progress="90" />
-                                        <Progress text="JavaScript" progress="85" />
+                                    <div className="col-span-3 flex flex-col">
+                                        <Progress text="Frontend Development" progress="100" />
+                                        <p className='text-base'>
+                                            I am fluent in <span className='font-bold underline decoration-2 decoration-orange-500'>HTML, CSS and JavaScript</span>. I am currently learning <span className='font-bold underline decoration-2 decoration-pink-500'>React + Next.js</span> as well as <span className='font-bold underline decoration-2 decoration-sky-500'>TypeScript</span>. 
+                                        </p>
                                     </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="PHP" progress="90" />
-                                        <Progress text="Node.js" progress="60" />
-                                        <Progress text="Next.js" progress="30" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="MySQL" progress="50" />
-                                        <Progress text="MariaDB" progress="40" />
-                                        <Progress text="MongoDB" progress="10" />
+                                    <div className="col-span-3 flex flex-col">
+                                        <Progress text="Backend Development" progress="90" />
+                                        <p className='text-base'>
+                                            I am able to work with backend frameworks such as <span className='font-bold underline decoration-2 decoration-purple-500'>node.js</span>, as well as backend programming languages, such as <span className='font-bold underline decoration-2 decoration-blue-500'>PHP</span>.
+                                        </p>
                                     </div>
                                 </div>    
                             <div/>
@@ -267,24 +304,16 @@ export default function Projects() {
                         </div>
 
                         <div className="col-span-3">
-                            <h2 className="text-lg font-semibold mb-2">Multi-Purpose Programming</h2>
-                            <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                <div className="col-span-6 flex flex-col">
-                                    <Progress text="C" progress="20" />
-                                    <Progress text="C++" progress="5" />
-                                    <Progress text="Python" progress="30" />
-                                </div>
-                            </div> 
+                            <Progress text="Embedded Programming" progress="20" />
+                            <p className='text-base'>
+                                I am in the process of learning programming languages such as <span className='font-bold underline decoration-2 decoration-pink-500'>C / C++</span> as well as Arduino programming. 
+                            </p>
                         </div>
                         <div className="col-span-3">
-                            <h2 className="text-lg font-semibold mb-2">Scripting / Configuration</h2>
-                            <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                <div className="col-span-6 flex flex-col">
-                                    <Progress text="YAML" progress="60" />
-                                    <Progress text="Markdown" progress="80" />
-                                    <Progress text="Bash" progress="60" />
-                                </div>
-                            </div> 
+                            <Progress text="Scripting Languages" progress="60" />
+                            <p className='text-base'>
+                                Scripting languages are also a part of my skill list as it is a great language for automating tasks on Linux and BSD machines. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -294,28 +323,12 @@ export default function Projects() {
                     <p className="text-base my-2">
                         I have also been involved with a couple of coding competitions and preparations at my current high school, Rugby School Thailand. 
                     </p>
-                    <div className="grid grid-cols-6 gap-4">
-                        <div className="col-span-6">
-                                <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="LEGO Mindstorms NXT" progress="90" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="LEGO Mindstorms EV3" progress="90" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="VEX IQ" progress="50" />
-                                    </div>
-                                </div>    
-                            <div/>
-                        </div>
-                    </div>
 
                     <div className="grid grid-cols-6 gap-4">
                         <div className="col-span-6">
                             <h2 className="text-xl font-bold">First LEGO League</h2>
                             <p className="text-base my-2">
-                                Currently a part of the First LEGO League Team 
+                                Currently a part of the First LEGO League Team at Rugby School Thailand!
                             </p>
                         </div>
                         <div className="col-span-6">

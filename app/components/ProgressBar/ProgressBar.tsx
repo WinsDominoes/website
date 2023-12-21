@@ -9,7 +9,7 @@ const SkillProgress = ({text, progress}: any) => {
     return (
         <div>
             <h1 className="text-xl font-bold">{ text }</h1>
-            <div className="relative mb-5 h-2">
+            <div className="relative my-2 h-2">
                 <ProgressBar 
                     completed={progress} 
                     animateOnRender
