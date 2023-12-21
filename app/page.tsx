@@ -23,7 +23,7 @@ export default function Home() {
 
                     <div className="col-span-2 grid gap-4 content-center">
                         <p className="text-5xl font-bold">Win Pattanaphol</p>
-                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">full-stack developer</a>, high schooler, enjoyer of 60s-80s music, language nerd, an electrician, and a professional terrible-jokes-maker from Thailand 🇹🇭</p>
+                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">full-stack hobbyist developer</a>, high schooler, enjoyer of 60s-80s music, language nerd, an electrician, and a professional terrible-jokes-maker from Thailand 🇹🇭</p>
                         <ContactIcons />
                     </div>
 
@@ -72,16 +72,6 @@ export default function Home() {
 
                     <div className="flex justify-center my-4">
                         <p className="text-lg font-bold">View my <a className="font-bold underline decoration-2 decoration-sky-500">projects</a> and <a className="font-bold underline decoration-2 decoration-pink-500">hobbies</a> by clicking on the images!</p>
-                    </div>
-                </div>
-
-                <div className="grid grid-cols-4 max-lg:flex max-lg:flex-col">
-                    <div className="col-span-4">
-                        <p className="text-3xl font-bold">
-                            Education
-                        </p>
-
-                        <Timeline />
                     </div>
                 </div>
 

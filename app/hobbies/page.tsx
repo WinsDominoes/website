@@ -108,8 +108,7 @@ export default function Hobbies() {
                                     <div className="col-span-2 flex flex-col">
                                         <Progress text="paint.net" progress="90" />
                                     </div>
-                                </div>    
-                            <div/>
+                                </div>
                         </div>
 
                         <div className="col-span-6">

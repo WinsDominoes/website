@@ -34,3 +34,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# history
+.history/
+
+# mac
+._*
+._.DS_Store
+.*
+
+# diploma
+public/images/photos/diplomas/
