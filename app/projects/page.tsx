@@ -213,7 +213,7 @@ export default function Projects() {
                             <h2 className='text-xl font-bold'>Minecraft Server</h2>
                             <p className='text-base'>
                                 As a fun side project, I also run a Minecraft Server called <span className='font-bold underline decoration-2 decoration-orange-500'>ASEAN SMP</span>, a server available to every Minecraft player in the Southeast Asian Region.
-                                It is currnetly running on my homelab with around 2 - 5 players daily. 
+                                It is currently running on my homelab with around 2 - 5 players daily. 
                             </p>
                             <ul className='list-disc ml-4'>
                                 <li>
