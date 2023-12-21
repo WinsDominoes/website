@@ -297,7 +297,7 @@ export default function Projects() {
                                 </div>
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/software/thai-oil-prices.png" href="https://github.com/WinsDominoes/thai-oil-prices" alt="Thailand's Oil Price Tracker"></Photo>
+                                        <Photo src="/images/photos/software/winsvideo.png" href="https://github.com/WinsVideo/winsvideo-4.0" alt="WinsVideo - Video Sharing Site"></Photo>
                                     </div>
                                 </div>
                             </div>
