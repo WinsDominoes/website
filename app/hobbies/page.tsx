@@ -34,18 +34,18 @@ export default function Hobbies() {
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <div className="grid col-span-3 gap-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/cosplay/tasm-2-main.jpg" href="https://www.instagram.com/p/CqvbNxnyCXl" alt="The Amazing Spider-Man 2" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/tasm-2-main.jpg" href="https://www.instagram.com/p/CqvbNxnyCXl" alt="The Amazing Spider-Man 2" ></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-2 content-center max-md:hidden">
                                     <div>
-                                        <Photo src="/images/photos/cosplay/win&art.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=3" alt="Spider-Men" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/win&art.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=3" alt="Spider-Men" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/win-and-art-thinking.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=2" alt="Thinking" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/win-and-art-thinking.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=2" alt="Thinking" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/win-and-art-4.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=1" alt="Spider-Bros" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/win-and-art-4.jpg" href="https://www.instagram.com/p/CzkonahrURS/?img_index=1" alt="Spider-Bros" ></Photo>
                                     </div>
                                 </div>
                             </div>
@@ -57,32 +57,32 @@ export default function Hobbies() {
                             <div className="grid grid-cols-3 md:grid-cols-4 gap-6">   
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/cosplay/tasm-2-spider-man-2-2.jpg" href="https://www.instagram.com/p/CyiVaBoLBVR/?img_index=1" alt="TASM2 Pose" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/tasm-2-spider-man-2-2.jpg" href="https://www.instagram.com/p/CyiVaBoLBVR/?img_index=1" alt="TASM2 Pose" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/hulk-asiatique.jpg" href="https://www.instagram.com/p/CrTS2T9ScLs/?img_index=1" alt="TASM2 Pose" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/hulk-asiatique.jpg" href="https://www.instagram.com/p/CrTS2T9ScLs/?img_index=1" alt="TASM2 Pose" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/tasm-2-spider-man-2.jpg" href="https://www.instagram.com/p/CyiVaBoLBVR/?img_index=4" alt="Symbiote" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/tasm-2-spider-man-2.jpg" href="https://www.instagram.com/p/CyiVaBoLBVR/?img_index=4" alt="Symbiote" ></Photo>
                                     </div>
                                 </div>
                                 <div className="grid col-span-2 gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/cosplay/spiderverse.jpg" href="https://www.facebook.com/WinsDominoes/posts/pfbid02aE4Hocw54B8M3g5DcyPKEfRDRZ6Do4xKnbyCsHycrbgt7n5Te7SXvceWwkFbmnNMl" alt="Spider-Verse" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/spiderverse.jpg" href="https://www.facebook.com/WinsDominoes/posts/pfbid02aE4Hocw54B8M3g5DcyPKEfRDRZ6Do4xKnbyCsHycrbgt7n5Te7SXvceWwkFbmnNMl" alt="Spider-Verse" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/spiderverse-photo.jpg" href="https://www.facebook.com/WinsDominoes/posts/pfbid0ahuYTHefP9Mf8eXLeYkpi9iFKGxKpDqxKkUu7yKh78CjyfQSuofG4wsGG5QxuZ8ol" alt="Spider-Man: Into the Spider-Verse" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/spiderverse-photo.jpg" href="https://www.facebook.com/WinsDominoes/posts/pfbid0ahuYTHefP9Mf8eXLeYkpi9iFKGxKpDqxKkUu7yKh78CjyfQSuofG4wsGG5QxuZ8ol" alt="Spider-Man: Into the Spider-Verse" ></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center max-md:hidden">
                                     <div>
-                                        <Photo src="/images/photos/cosplay/gtoqw.jpg" href="https://www.instagram.com/p/Cs7ZYrdSEaT/?img_index=1" alt="Across the Spider-Verse Fan Meet" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/gtoqw.jpg" href="https://www.instagram.com/p/Cs7ZYrdSEaT/?img_index=1" alt="Across the Spider-Verse Fan Meet" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/peter-b-main.jpg" href="https://www.facebook.com/photo.php?fbid=1485878428813697&set=pb.100021746621221.-2207520000&type=3" alt="Peter B. Parker" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/peter-b-main.jpg" href="https://www.facebook.com/photo.php?fbid=1485878428813697&set=pb.100021746621221.-2207520000&type=3" alt="Peter B. Parker" ></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/cosplay/gtoqw2.jpg" href="https://www.facebook.com/photo.php?fbid=1433342307462095&set=t.100021746621221&type=3" alt="Guardians Of The Quantum World" dim="false"></Photo>
+                                        <Photo src="/images/photos/cosplay/gtoqw2.jpg" href="https://www.facebook.com/photo.php?fbid=1433342307462095&set=t.100021746621221&type=3" alt="Guardians Of The Quantum World" ></Photo>
                                     </div>
                                 </div>
                             </div>
@@ -124,23 +124,23 @@ export default function Hobbies() {
                                     <div className="grid grid-cols-3 gap-6">   
                                         <div className="grid gap-4 content-center">
                                             <div>
-                                                <Photo src="/images/photos/graphic-design/attaste/attaste-background-2.jpg" href="https://www.facebook.com/attaste.rmutt/posts/pfbid0Ba9jKJybSD8VV88kQd85SB3RWhRY5GTVh7bbes3begdK4FADxbaHvaYqqqEYsV8Yl" alt="" dim="false"></Photo>
+                                                <Photo src="/images/photos/graphic-design/attaste/attaste-background-2.jpg" href="https://www.facebook.com/attaste.rmutt/posts/pfbid0Ba9jKJybSD8VV88kQd85SB3RWhRY5GTVh7bbes3begdK4FADxbaHvaYqqqEYsV8Yl" alt=""></Photo>
                                             </div>
                                             <div>
-                                                <Photo src="/images/photos/graphic-design/attaste/attaste-background.jpg" href="https://www.facebook.com/attaste.rmutt/posts/pfbid0Ba9jKJybSD8VV88kQd85SB3RWhRY5GTVh7bbes3begdK4FADxbaHvaYqqqEYsV8Yl" alt="" dim="false"></Photo>
-                                            </div>
-                                        </div>
-                                        <div className="grid gap-4 content-center">
-                                            <div>
-                                                <Photo src="/images/photos/graphic-design/attaste/attaste-logo.jpg" href="https://www.facebook.com/attaste.rmutt/" alt="Attaste Logo" dim="false"></Photo>
+                                                <Photo src="/images/photos/graphic-design/attaste/attaste-background.jpg" href="https://www.facebook.com/attaste.rmutt/posts/pfbid0Ba9jKJybSD8VV88kQd85SB3RWhRY5GTVh7bbes3begdK4FADxbaHvaYqqqEYsV8Yl" alt=""></Photo>
                                             </div>
                                         </div>
                                         <div className="grid gap-4 content-center">
                                             <div>
-                                                <Photo src="/images/photos/graphic-design/attaste/attaste-full-page.jpg" href="https://www.facebook.com/Fashionrmutt/posts/pfbid0GYU1Mb7iAqdJGEW38uLmf3y9LuHvXdWWk82TPw2TzaN5i4gZMmLjH1mzFK2XmFedl" alt="" dim="false"></Photo>
+                                                <Photo src="/images/photos/graphic-design/attaste/attaste-logo.jpg" href="https://www.facebook.com/attaste.rmutt/" alt="Attaste Logo" ></Photo>
+                                            </div>
+                                        </div>
+                                        <div className="grid gap-4 content-center">
+                                            <div>
+                                                <Photo src="/images/photos/graphic-design/attaste/attaste-full-page.jpg" href="https://www.facebook.com/Fashionrmutt/posts/pfbid0GYU1Mb7iAqdJGEW38uLmf3y9LuHvXdWWk82TPw2TzaN5i4gZMmLjH1mzFK2XmFedl" alt=""></Photo>
                                             </div>
                                             <div>
-                                                <Photo src="/images/photos/graphic-design/attaste/attaste-full.jpg" href="https://www.facebook.com/Fashionrmutt/posts/pfbid0GYU1Mb7iAqdJGEW38uLmf3y9LuHvXdWWk82TPw2TzaN5i4gZMmLjH1mzFK2XmFedl" alt="" dim="false"></Photo>
+                                                <Photo src="/images/photos/graphic-design/attaste/attaste-full.jpg" href="https://www.facebook.com/Fashionrmutt/posts/pfbid0GYU1Mb7iAqdJGEW38uLmf3y9LuHvXdWWk82TPw2TzaN5i4gZMmLjH1mzFK2XmFedl" alt=""></Photo>
                                             </div>
                                         </div>
                                     </div>
@@ -177,31 +177,31 @@ export default function Hobbies() {
                             <div className="grid grid-cols-3 md:grid-cols-5 gap-6">   
                                 <div className="grid col-span-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/graphic-design/supta/monday.jpg" href="https://www.facebook.com/photo?fbid=617881087113710&set=pcb.617882217113597" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/graphic-design/supta/monday.jpg" href="https://www.facebook.com/photo?fbid=617881087113710&set=pcb.617882217113597" alt=""></Photo>
                                     </div>
                                 </div>
                                 <div className="grid content-center">
                                     <div>
-                                        <Photo src="/images/photos/graphic-design/supta/tuesday.jpg" href="https://www.facebook.com/photo?fbid=617881563780329&set=pcb.617882217113597" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/graphic-design/supta/tuesday.jpg" href="https://www.facebook.com/photo?fbid=617881563780329&set=pcb.617882217113597" alt=""></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/graphic-design/supta/wednesday.jpg" href="https://www.facebook.com/photo?fbid=617881700446982&set=pcb.617882217113597" alt="" dim="false"></Photo>
-                                    </div>
-                                </div>
-                                <div className="grid content-center">
-                                    <div>
-                                        <Photo src="/images/photos/graphic-design/supta/thursday.jpg" href="https://www.facebook.com/photo?fbid=617881093780376&set=pcb.617882217113597" alt="" dim="false"></Photo>
-                                    </div>
-                                    <div>
-                                        <Photo src="/images/photos/graphic-design/supta/friday.jpg" href="https://www.facebook.com/photo/?fbid=617881620446990&set=pcb.617882217113597" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/graphic-design/supta/wednesday.jpg" href="https://www.facebook.com/photo?fbid=617881700446982&set=pcb.617882217113597" alt=""></Photo>
                                     </div>
                                 </div>
                                 <div className="grid content-center">
                                     <div>
-                                        <Photo src="/images/photos/graphic-design/supta/saturday.jpg" href="https://www.facebook.com/photo/?fbid=617881097113709&set=pcb.617882217113597" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/graphic-design/supta/thursday.jpg" href="https://www.facebook.com/photo?fbid=617881093780376&set=pcb.617882217113597" alt=""></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/graphic-design/supta/sunday.jpg" href="https://www.facebook.com/photo?fbid=617881310447021&set=pcb.617882217113597" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/graphic-design/supta/friday.jpg" href="https://www.facebook.com/photo/?fbid=617881620446990&set=pcb.617882217113597" alt=""></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid content-center">
+                                    <div>
+                                        <Photo src="/images/photos/graphic-design/supta/saturday.jpg" href="https://www.facebook.com/photo/?fbid=617881097113709&set=pcb.617882217113597" alt=""></Photo>
+                                    </div>
+                                    <div>
+                                        <Photo src="/images/photos/graphic-design/supta/sunday.jpg" href="https://www.facebook.com/photo?fbid=617881310447021&set=pcb.617882217113597" alt=""></Photo>
                                     </div>
                                 </div>
                             </div>
@@ -215,38 +215,38 @@ export default function Hobbies() {
                             <div className="grid grid-cols-4 max-md:flex max-md:flex-col max-md:justify-center gap-6">   
                                 <div className="grid col-span-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/language/etymology/december.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0F5B2pYJpxFn4zTz4gRnRJiyrJk39cyBU12h3UF2CMCZZHuDX3Ucf7w5bkHCuXCLWl" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/language/etymology/december.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0F5B2pYJpxFn4zTz4gRnRJiyrJk39cyBU12h3UF2CMCZZHuDX3Ucf7w5bkHCuXCLWl" alt=""></Photo>
                                     </div>
                                 </div>
                                 <div className="grid col-span-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/language/poetry/rain.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0xhGCHH5ripFCLY98k9R2gLvwBVUEQC7cHj2XNAeMjdWWFzg6ytqdbs3pUmVo7sQ4l" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/language/poetry/rain.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0xhGCHH5ripFCLY98k9R2gLvwBVUEQC7cHj2XNAeMjdWWFzg6ytqdbs3pUmVo7sQ4l" alt=""></Photo>
                                     </div>
                                 </div>
                                 <div className="grid col-span-4 content-center max-md:hidden">
                                     <div className="grid grid-cols-4 gap-x-4">
                                         <div>
-                                            <Photo src="/images/photos/language/poetry/megabangna.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02bBs5rRF1HvusMHszwTFoQvX6dRoyMRfvDeJW44UAVG1V2cnTGW1heezpUnn8rXX7l" alt="" dim="false"></Photo>
+                                            <Photo src="/images/photos/language/poetry/megabangna.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02bBs5rRF1HvusMHszwTFoQvX6dRoyMRfvDeJW44UAVG1V2cnTGW1heezpUnn8rXX7l" alt=""></Photo>
                                         </div>
                                         <div>
-                                            <Photo src="/images/photos/language/poetry/cosplay.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02Rb7QKDbxU2FAttBJZ7UEitWtZ3nd9JXBMyB73eckRwqsnYbxTBvXwWFwU2SVF8BFl" alt="" dim="false"></Photo>
+                                            <Photo src="/images/photos/language/poetry/cosplay.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02Rb7QKDbxU2FAttBJZ7UEitWtZ3nd9JXBMyB73eckRwqsnYbxTBvXwWFwU2SVF8BFl" alt=""></Photo>
                                         </div>
                                         <div>
-                                            <Photo src="/images/photos/language/etymology/sukhee.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0Gx4DUbn8Y3xYiv2SctfqZpaXyNbSmosUDmVhHSt45Fk71jjDfNth9n1mpder2Howl" alt="" dim="false"></Photo>
+                                            <Photo src="/images/photos/language/etymology/sukhee.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid0Gx4DUbn8Y3xYiv2SctfqZpaXyNbSmosUDmVhHSt45Fk71jjDfNth9n1mpder2Howl" alt=""></Photo>
                                         </div>
                                         <div>
-                                            <Photo src="/images/photos/language/etymology/jaturmitr.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02DQjru8LZvyStPFcvWXWXkTtVRWjAkqSYeST9p5Kw5ZLYb9zMeQyF4mBQrsGMVsTHl" alt="" dim="false"></Photo>
+                                            <Photo src="/images/photos/language/etymology/jaturmitr.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02DQjru8LZvyStPFcvWXWXkTtVRWjAkqSYeST9p5Kw5ZLYb9zMeQyF4mBQrsGMVsTHl" alt=""></Photo>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="grid col-span-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/language/poetry/bus.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02sBVdxeKb2Q7hWnR2hPbbCohPrj4g5CMC2gbXkE9bzKuiZDXS1PewXZpaWz4DKpL2l" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/language/poetry/bus.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02sBVdxeKb2Q7hWnR2hPbbCohPrj4g5CMC2gbXkE9bzKuiZDXS1PewXZpaWz4DKpL2l" alt=""></Photo>
                                     </div>
                                 </div>
                                 <div className="grid col-span-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/language/etymology/manusya.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02fw5D5uXxwoKQjuSQe16Pf4eCaaH9fyM6jt3yZDgeeZZdhnSPXg7AiM1tqhtYyYyrl" alt="" dim="false"></Photo>
+                                        <Photo src="/images/photos/language/etymology/manusya.png" href="https://www.facebook.com/WinsDominoes/posts/pfbid02fw5D5uXxwoKQjuSQe16Pf4eCaaH9fyM6jt3yZDgeeZZdhnSPXg7AiM1tqhtYyYyrl" alt=""></Photo>
                                     </div>
                                 </div>
 

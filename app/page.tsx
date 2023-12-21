@@ -28,7 +28,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-span-3">
-                        <h2 className="text-3xl font-bold mt-2">About</h2> 
+                        <h2 className="text-4xl font-bold mt-2">About Me</h2> 
                         <p className="text-base mt-4">
                             My main field of work is creating <a className="font-bold underline decoration-2 decoration-sky-500">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold underline decoration-2 decoration-pink-500">Node.js</a> and <a className="font-bold underline decoration-2 decoration-indigo-500">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
                             such as <a className="font-bold underline decoration-2 decoration-pink-500">MySQL / MariaDB</a>.

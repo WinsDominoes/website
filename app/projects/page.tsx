@@ -24,8 +24,115 @@ export default function Projects() {
 
                 <div>
                     <div className='mb-4'>
-                        <h2 className="text-3xl font-bold my-2">System Administration</h2> 
-                        <p className="text-base">All of my homelab equipment are inter-connected under the <Link href="https://winscloud.net"><span className="font-bold underline decoration-2 decoration-green-500">WinsCloud</span></Link> ecosystem. 
+                        <h2 className="text-4xl font-bold my-2">System Administration</h2> 
+                    </div>
+
+                    <div className='mb-4'>
+                        <h2 className="text-3xl font-bold my-2">Enterprise Systems</h2> 
+                        <p className="text-base">
+                            I work as a <span className='font-bold underline decoration-2 decoration-sky-500'>part-time job</span> at my family business company, <span className='font-bold underline decoration-2 decoration-blue-500'>EMPower Engineering Co.,Ltd</span>. 
+                            I work with designing, operating and maintaining the company&apos;s <span className='font-bold underline decoration-2 decoration-indigo-500'>computer infrastructure</span> along with the company&apos;s I.T. department. 
+                        </p>
+                    </div>
+
+                    <div className='grid grid-cols-6 gap-4'>
+                        <div className='col-span-6'>
+                            <h3 className='text-2xl font-bold my-2'>Hardware</h3>
+                            <p className="text-base">
+                                The server rack below consists of many components. Ranging from network equipment such as: <span className='font-bold underline decoration-2 decoration-purple-500'>routers and switches</span> to server equipment such as: <span className='font-bold underline decoration-2 decoration-pink-500'>storage servers and security camera servers</span>. 
+                            </p>
+                        </div>
+
+                        <div className="col-span-6">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                                <div className="grid gap-4 content-center">
+                                    <div>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" alt="Main Server Rack"></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid gap-4 content-center">
+                                    <div>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_132903.jpg" alt="Router Closeup"></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid gap-4 content-center">    
+                                    <div>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_133050.jpg" alt="MikroTik Cloud Router Switch"></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid gap-4 content-center">
+                                    <div>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_132830.jpg" href="https://cloud.winsdominoes.net" alt="Server Maintenance"></Photo>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-span-6'>
+                            <h3 className='text-2xl font-bold my-2'>Software</h3>
+                            <p className="text-base">
+                                Along with hardware, there must be... Software! These software are used for many purposes, such as <span className='font-bold underline decoration-2 decoration-yellow-500'>server monitoring</span>, 
+                                <span className='font-bold underline decoration-2 decoration-lime-500'>file storage and transfer</span>, a DNS server and so on. 
+                            </p>
+                        </div>
+
+                        <div className='col-span-6'>
+                            <div className="grid grid-cols-2 max-lg:flex max-lg:flex-col max-lg:justify-center gap-6">
+                                <div className="content-center">
+                                    <div className='flex flex-col'>
+                                        <Photo src="/images/photos/company/raspberry-pi-file/20231221_151414.jpg" href="https://cloud.winsdominoes.net"></Photo>
+                                        <h5 className='text-xl font-bold'>File Transfer</h5>
+                                        <p className='text-base'>
+                                            This is a touchscreen Raspberry Pi that handles all <span className='font-bold underline decoration-2 decoration-rose-500'>CNC-related file transfers</span>, designed and installed by me and the I.T. department.
+                                        </p>
+
+                                        <h5 className='text-lg font-bold mt-2'>Usage</h5>
+                                        <ul className="list-disc ml-4">
+                                            <li>
+                                                Engineers, sitting in the office, connects to the Pi using the <span className='font-bold underline decoration-2 decoration-rose-500'>SMB (Samba) protocol</span>.                                          
+                                            </li>
+                                            <li>
+                                                Engineers copy the files over to the Raspberry Pi over the network. 
+                                            </li>
+                                            <li>
+                                                The <span className='font-bold underline decoration-2 decoration-sky-500'>CNC machine operators</span> copies the files straight to the CNC machine. 
+                                            </li>
+                                        </ul>
+
+                                        <p className='text-base mt-2'>
+                                            This project has received <span className='font-bold underline decoration-2 decoration-green-500'>numerous positive feedbacks</span> from machine operators and are still being used in production to this day.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="content-center">
+                                    <div className='flex flex-col'>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_151027.jpg" href="https://cloud.winsdominoes.net"></Photo>
+                                        <h4 className='text-xl font-bold'>Networking</h4>
+                                        <p className='text-base'>
+                                            Raspberry Pis are also used in networking systems such as: internet speed monitoring and as a DNS server. 
+                                        </p>
+                                        
+                                        <h5 className='text-lg font-bold mt-2'>Pi-Hole</h5>
+                                        <p className='text-base'>
+                                            Seen on the left side of the screen, <Link href="https://pi-hole.net" className='font-bold underline decoration-2 decoration-indigo-500'>Pi-Hole</Link> is used as the main DNS server, in which, the company&apos;s network traffic must go through Pi-Hole before entering the Wide Area Network.
+                                            This also provides additional DNS protection & control to the already installed firewall. 
+                                        </p>
+
+                                        <h5 className='text-lg font-bold mt-2'>Grafana Monitoring</h5>
+                                        <p className='text-base'>
+                                            The <Link href="https://github.com/geerlingguy/internet-pi/" className='font-bold underline decoration-2 decoration-indigo-500'>internet-pi</Link> set of software, consisting of Grafana and Ansible, provides the I.T. department with additional networking monitoring such as: 
+                                            Connection speeds, latency, HTTP duration and much more. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='mt-10'>
+                        <h2 className="text-3xl font-bold my-2">Homelab</h2> 
+                        <p className="text-base">In addition to business systems, I also have a homelab! My homelab equipment are inter-connected under the <Link href="https://winscloud.net"><span className="font-bold underline decoration-2 decoration-green-500">WinsCloud</span></Link> ecosystem. 
                         This is where I run most of my <span className="font-bold underline decoration-2 decoration-sky-500">self-hosting</span> instances of various <span className="font-bold underline decoration-2 decoration-indigo-500">open-source software</span> such as file storage servers, music streaming services, network monitors, and so on. </p>
                     </div>
                     
@@ -228,10 +335,11 @@ export default function Projects() {
                                     <div className="transition ease-in-out delay-150 hover:scale-105 duration-300">
                                         <video 
                                             autoPlay
+                                            controls
                                             muted
                                             loop
                                             className='rounded'
-                                            src="/images/photos/school-work/robotics/lego-league/robot-movement-final.mp4">
+                                            src="/images/photos/school-work/robotics/lego-league/robot-movement-final.webm">
                                         </video>
                                         <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">First LEGO League Robot Test Run</span>
                                     </div>
@@ -286,7 +394,7 @@ export default function Projects() {
                     <h2 className="text-3xl font-bold">Science</h2>   
                     <p className="text-base">
                         I participated in Rugby School Thailand&apos;s <a className="font-bold underline decoration-2 decoration-indigo-500">Senior Open Day</a>, where all academic departments get to present their syllabus and curriculum to visitors that are looking into joining the school. 
-                        I voluntarily came to help the <a className="font-bold underline decoration-2 decoration-sky-500">Physics department</a> in presenting <a className="font-bold underline decoration-2 decoration-pink-500">IGCSE and A-Level Physics concepts</a>. 
+                        I volunteered to come and help the <a className="font-bold underline decoration-2 decoration-sky-500">Physics department</a> in presenting and explaining <a className="font-bold underline decoration-2 decoration-pink-500">IGCSE and A-Level Physics concepts</a>. 
                     </p>
 
                     <div className="grid grid-cols-6 gap-4">
