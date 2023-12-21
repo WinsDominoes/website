@@ -49,6 +49,10 @@ export default function Education() {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="flex justify-center my-4">
+                                <p className="text-lg font-bold">View my <a className="font-bold underline decoration-2 decoration-sky-500">reports</a> by clicking on the images!</p>
+                            </div>
                         </div>
                     </div>
 

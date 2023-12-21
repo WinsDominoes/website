@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import NextNProgress from "nextjs-progressbar"
 
 import type { Metadata } from 'next';
 // import { Inter } from 'next/font/google';
@@ -10,7 +11,7 @@ import './components.css';
 
 export const metadata: Metadata = {
 	title: "Win's Personal Website",
-	description: 'Powered by Next.js',
+	description: "A full-stack developer, high schooler, enjoyer of 60s-80s music, language nerd, an electrician, and a professional terrible-jokes-maker from Thailand.",
 };
 
 export default function RootLayout({
