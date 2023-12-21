@@ -231,7 +231,7 @@ export default function Projects() {
                                             muted
                                             loop
                                             className='rounded'
-                                            src="/images/photos/school-work/robotics/lego-league/robot-movement.mp4">
+                                            src="/images/photos/school-work/robotics/lego-league/robot-movement-final.mp4">
                                         </video>
                                         <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">First LEGO League Robot Test Run</span>
                                     </div>
