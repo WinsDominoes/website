@@ -30,7 +30,7 @@ export default function Home() {
                     </div>
 
                     <div className='col-span-3 flex flex-col place-items-center max-sm:place-items-start'>
-                        <code className='text-lg font-bold'>"I don't want to make a PDF, I'll code one instead."</code>
+                        <code className='text-lg font-bold'>&quot;I don&apos;t want to make a PDF, I&apos;ll code one instead.&quot; - Win at 3 A.M.</code>
                     </div>
 
                     <div className="col-span-3 mt-[-15px]">
