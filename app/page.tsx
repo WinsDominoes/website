@@ -16,22 +16,39 @@ export default function Home() {
                             src="/images/picture.png"
                             width={200}
                             height={200}
-                            alt="Win's Mastodon Profile"
+                            alt="Win's Logo"
                             className="rounded-full"
                         />
                     </div>
 
                     <div className="col-span-2 grid gap-4 content-center">
-                        <p className="text-5xl font-bold">Win Pattanaphol</p>
-                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">full-stack hobbyist developer</a>, high schooler, enjoyer of 60s-80s music, language nerd, an electrician, and a professional terrible-jokes-maker from Thailand 🇹🇭</p>
+                        <div>
+                            <p className="text-5xl font-bold">Thanawin Pattanaphol</p>
+                            <p className="text-sm mt-2">ธนาวินทร์ พัฒนผล</p>
+                        </div>
+                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, high schooler, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
                     </div>
 
                     <div className="col-span-3">
                         <h2 className="text-4xl font-bold mt-2">About Me</h2> 
+                        <div className='mt-4 text-lg grid grid-cols-4 max-lg:flex max-lg:flex-col'>
+                            <div>
+                                <span className='font-bold underline decoration-2 decoration-green-500'>Nickname</span>: Win
+                            </div>
+                            <div>
+                                <span className='font-bold underline decoration-2 decoration-indigo-500'>Age</span>: 16
+                            </div>
+                            <div>
+                                <span className='font-bold underline decoration-2 decoration-red-500'>Nationality</span>: Thai 🇹🇭
+                            </div>
+                            <div>
+                                <span className='font-bold underline decoration-2 decoration-yellow-500'>Religion</span>: Buddhist
+                            </div>
+                        </div>
                         <p className="text-base mt-4">
-                            My main field of work is creating <a className="font-bold underline decoration-2 decoration-sky-500">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold underline decoration-2 decoration-pink-500">Node.js</a> and <a className="font-bold underline decoration-2 decoration-indigo-500">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
-                            such as <a className="font-bold underline decoration-2 decoration-pink-500">MySQL / MariaDB</a>.
+                            My main field of work is creating <a className="font-bold underline decoration-2 decoration-sky-500">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
+                            such as <a className="font-bold">MySQL / MariaDB</a>.
                         </p>
                         <p className="text-base mt-4">
                             I also have experience working with <a className="font-bold underline decoration-2 decoration-sky-500">server infrastructure</a>. I am currently administering the IT infrastructure (servers, networking, firewalls) 
@@ -76,7 +93,7 @@ export default function Home() {
                                 <Photo src="/images/photos/iot/raspberrypi.jpg" href="/projects" alt="Raspberry Pi"></Photo>
                             </div>
                             <div>
-                                <Photo src="/images/photos/hardware/homelab.jpg" href="/projects" alt="Homelab"></Photo>
+                                <Photo src="/images/photos/company/main-server-rack/20231221_132903.jpg" href="/projects" alt="Enterprise Router"></Photo>
                             </div>
                         </div>
                         <div className="grid gap-4">
@@ -84,7 +101,7 @@ export default function Home() {
                                 <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" href="/projects" alt="EMPower Enginering Co.,Ltd"></Photo>
                             </div>
                             <div>
-                                <Photo src="/images/photos/company/main-server-rack/20231221_151039.jpg" href="/projects" alt="EMPower Enginering Co.,Ltd"></Photo>
+                                <Photo src="/images/photos/hardware/ram.jpg" href="/projects" alt="Homelab"></Photo>
                             </div>
                         </div>
                         <div className="grid gap-4">

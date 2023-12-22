@@ -15,7 +15,7 @@ const Timeline = () => {
             school: "Sarasas Witaed Romklao International Programme",
             period: "4th Grade - 6th Grade",
             address: "124 Rom Klao Rd, Khlong Sam Prawet, Lat Krabang, Bangkok, Thailand 10520",
-            image: "/images/photos/school-logo/swr-iep.jpg",
+            image: "/images/photos/school-logo/swr.jpg",
             date: "2016 - 2019"
         },
         {
