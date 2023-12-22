@@ -11,7 +11,7 @@ export default function Home() {
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
-                    <div className="col-span-1 max-lg:hidden">
+                    <div className="col-span-1">
                         <Image 
                             src="/images/picture.png"
                             width={200}
@@ -32,7 +32,7 @@ export default function Home() {
 
                     <div className="col-span-3">
                         <h2 className="text-4xl font-bold mt-2">About Me</h2> 
-                        <div className='mt-4 text-lg grid grid-cols-4 max-lg:flex max-lg:flex-col'>
+                        <div className='mt-4 text-lg grid grid-cols-4 max-sm:flex max-sm:flex-col'>
                             <div>
                                 <span className='font-bold underline decoration-2 decoration-green-500'>Nickname</span>: Win
                             </div>
