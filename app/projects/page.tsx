@@ -11,13 +11,13 @@ export default function Projects() {
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
-                    <div className="col-span-3">
-                    <h2 className="text-5xl font-bold mt-2">Projects & Work</h2> 
+                    <div className="col-span-3 flex flex-col max-lg:items-center max-sm:items-start">
+                        <h2 className="text-5xl font-bold mt-2">Projects & Work</h2> 
                         <p className="text-base mt-4">
-                            Here are the projects that I have made over the years. I mostly focus on the <a className="font-bold underline decoration-2 decoration-indigo-500">web development</a> and <a className="font-bold underline decoration-2 decoration-sky-500">computer system</a> side of things, however, I have picked up some <a className="font-bold underline decoration-2 decoration-pink-500">embedded programming</a> and <a className="font-bold underline decoration-2 decoration-indigo-500">electronics</a> over the past couple of months as well. 
+                            Here are the projects that I have made over the years. I mostly focus on the <a className="font-bold  underline decoration-2 decoration-sky-500">web development</a> and <a className="font-bold underline decoration-2 decoration-sky-500">computer system</a> side of things, however, I have also picked up <span className="italic">embedded programming</span> and <span className="italic">electronics</span> over the past couple of months as well. 
                         </p>
                         <p className='text-base mt-4'>
-                            I have also been involved with a couple of <a className="font-bold underline decoration-2 decoration-sky-500">STEM events</a>, such as <a className="font-bold underline decoration-2 decoration-indigo-500">competitive coding competitions</a> and <a className="font-bold underline decoration-2 decoration-pink-500">science events</a>. 
+                            I have also been involved with a couple of <a className="font-bold">STEM events</a>, such as <a className="font-bold">competitive coding competitions</a> and <a className="font-bold">science showcase events</a>. 
                         </p>
                     </div>
                 </div>
@@ -30,8 +30,8 @@ export default function Projects() {
                     <div className='mb-4'>
                         <h2 className="text-3xl font-bold my-2">Enterprise Systems</h2> 
                         <p className="text-base">
-                            I work as a <span className='font-bold underline decoration-2 decoration-sky-500'>part-time job</span> at my family business company, <span className='font-bold underline decoration-2 decoration-blue-500'>EMPower Engineering Co.,Ltd</span>. 
-                            I work with designing, operating and maintaining the company&apos;s <span className='font-bold underline decoration-2 decoration-indigo-500'>computer infrastructure</span> along with the company&apos;s I.T. department. 
+                            I work as a part-time helper at my family business company, <span className='font-bold underline decoration-2 decoration-blue-500'>EMPower Engineering Co.,Ltd</span>. 
+                            I work with designing, operating and maintaining the company&apos;s <span className='font-bold'>computer infrastructure</span> along with the company&apos;s I.T. department. 
                         </p>
                     </div>
 
@@ -57,7 +57,7 @@ export default function Projects() {
                                 </div>
                                 <div className="grid gap-4 content-center">    
                                     <div>
-                                        <Photo src="/images/photos/company/main-server-rack/20231221_133050.jpg" alt="MikroTik Cloud Router Switch"></Photo>
+                                        <Photo src="/images/photos/company/main-server-rack/20231221_133050.jpg" alt="MikroTik Router"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center">
@@ -71,8 +71,7 @@ export default function Projects() {
                         <div className='col-span-6'>
                             <h3 className='text-2xl font-bold my-2'>Software</h3>
                             <p className="text-base">
-                                Along with hardware, there must be... Software! These software are used for many purposes, such as <span className='font-bold underline decoration-2 decoration-yellow-500'>server monitoring</span>, 
-                                <span className='font-bold underline decoration-2 decoration-lime-500'>file storage and transfer</span>, a DNS server and so on. 
+                                Along with hardware, there must be... Software! These software are used for many purposes, such as <span className='font-bold underline decoration-2 decoration-yellow-500'>server monitoring</span>, <span className='font-bold underline decoration-2 decoration-yellow-500'>file storage and transfer</span>, a DNS server and so on. 
                             </p>
                         </div>
 
@@ -81,21 +80,21 @@ export default function Projects() {
                                 <div className="content-center">
                                     <div className='flex flex-col'>
                                         <Photo src="/images/photos/company/raspberry-pi-file/20231221_151414.jpg" href="https://cloud.winsdominoes.net"></Photo>
-                                        <h5 className='text-xl font-bold'>File Transfer</h5>
+                                        <h5 className='text-lg font-bold'>File Transfer</h5>
                                         <p className='text-base'>
                                             This is a touchscreen Raspberry Pi that handles all <span className='font-bold underline decoration-2 decoration-rose-500'>CNC-related file transfers</span>, designed and installed by me and the I.T. department.
                                         </p>
 
-                                        <h5 className='text-lg font-bold mt-2'>Usage</h5>
+                                        <span className='font-bold mt-2'>Usage</span>
                                         <ul className="list-disc ml-4">
                                             <li>
-                                                Engineers, sitting in the office, connects to the Pi using the <span className='font-bold underline decoration-2 decoration-rose-500'>SMB (Samba) protocol</span>.                                          
+                                                Engineers, sitting in the office, connects to the Pi using the <span className='font-bold'>SMB (Samba) protocol</span>.                                          
                                             </li>
                                             <li>
                                                 Engineers copy the files over to the Raspberry Pi over the network. 
                                             </li>
                                             <li>
-                                                The <span className='font-bold underline decoration-2 decoration-sky-500'>CNC machine operators</span> copies the files straight to the CNC machine. 
+                                                The <span className='font-bold'>CNC machine operators</span> copies the files straight to the CNC machine. 
                                             </li>
                                         </ul>
 
@@ -133,7 +132,7 @@ export default function Projects() {
                     <div className='mt-10'>
                         <h2 className="text-3xl font-bold my-2">Homelab</h2> 
                         <p className="text-base">In addition to business systems, I also have a homelab! My homelab equipment are inter-connected under the <Link href="https://winscloud.net"><span className="font-bold underline decoration-2 decoration-green-500">WinsCloud</span></Link> ecosystem. 
-                        This is where I run most of my <span className="font-bold underline decoration-2 decoration-sky-500">self-hosting</span> instances of various <span className="font-bold underline decoration-2 decoration-indigo-500">open-source software</span> such as file storage servers, music streaming services, network monitors, and so on. </p>
+                        This is where I run most of my <span className="font-bold">self-hosting</span> instances of various <span className="font-bold">open-source software</span> such as file storage servers, music streaming services, network monitors, and so on. </p>
                     </div>
 
                     <div className="col-span-6 my-4">
@@ -143,7 +142,7 @@ export default function Projects() {
                         </p>
                     </div>
                     
-                    <div className="grid grid-cols-6 gap-4">
+                    <div className="grid grid-cols-6 gap-4 max-lg:flex max-lg:flex-col ">
                         <div className="col-span-6">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <div className="grid gap-4 content-center">
@@ -180,41 +179,33 @@ export default function Projects() {
                         </div>
 
                         <div className='col-span-6'>
-                                <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Windows" progress="100" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="Linux" progress="100" />
-                                    </div>
-                                    <div className="col-span-2 flex flex-col">
-                                        <Progress text="BSD" progress="90" />
-                                    </div>
-                                </div>
-                                <p className='text-base'>
-                                    I am able to work with Windows Server, Linux and BSD operating systems. All of these operating systems are a part of my homelab as well as my enterprise work systems.
-                                </p>
+                            <h3 className='text-lg font-bold'>Operating Systems</h3>
+                            <p className='text-base'>
+                                I am able to work with <span className="font-bold">Windows Server, Linux and BSD operating systems</span>. All of these operating systems are a part of my homelab as well as my enterprise work systems.
+                            </p>
                         </div>
 
                         <div className="col-span-3">
-                            <Progress text="Firewalls" progress="90" />
+                            <h3 className='text-lg font-bold'>Firewalls</h3>
                             <p className='text-base'>
                                 I have experience in configuring and managing network firewalls such as: <span className='font-bold underline decoration-2 decoration-indigo-500'>pfSense / OPNsense & MikroTik&apos;s RouterOS</span>
                             </p>
                         </div>
+
                         <div className="col-span-3">
-                            <Progress text="Virtualization" progress="90" /> 
+                            <h3 className='text-lg font-bold'>Virtualization</h3>
                             <p className='text-base'>
                                 I am able to work with virtualization softwares such as: <span className='font-bold underline decoration-2 decoration-sky-500'>Proxmox, Docker and VMWare</span>. 
                             </p>
                         </div>
 
                         <div className='col-span-6 flex flex-col'>
-                            <h2 className='text-xl font-bold'>Minecraft Server</h2>
+                            <h2 className='text-lg font-bold'>Minecraft Server</h2>
                             <p className='text-base'>
                                 As a fun side project, I also run a Minecraft Server called <span className='font-bold underline decoration-2 decoration-orange-500'>ASEAN SMP</span>, a server available to every Minecraft player in the Southeast Asian Region.
-                                It is currently running on my homelab with around 2 - 5 players daily. 
+                                It is currently running on my homelab with around 2 - 5 players daily. This server also provides the players with a map of the server which gives players more overview of the Minecraft world itself.
                             </p>
+                            
                             <ul className='list-disc ml-4'>
                                 <li>
                                     IP: <code>mc.winsdominoes.net</code>
@@ -222,8 +213,12 @@ export default function Projects() {
                                 <li>
                                     Version: 1.20.1 an above!
                                 </li>
+                                <li>
+                                    Map: <Link href="https://map.winsdominoes.net" className='font-bold hover:underline'>https://map.winsdominoes.net</Link>
+                                </li>
                             </ul>
 
+                            <p className='font-bold mt-2'>Here are some screenshots of the Minecraft Server.</p>
                             <div className="my-4 grid grid-cols-2 max-lg:flex max-lg:flex-col gap-6">
                                 <div className="grid content-center">
                                     <div>
@@ -257,19 +252,19 @@ export default function Projects() {
                 </div>
 
                 <div>
-                    <h2 className="text-3xl font-bold my-2">Coding</h2>               
-                    <div className="grid grid-cols-6 gap-4">
+                    <h2 className="text-4xl font-bold my-2">Coding</h2>               
+                    <div className="grid grid-cols-6  max-lg:flex max-lg:flex-col gap-4">
                         <div className="col-span-6 my-2">
-                            <h2 className="text-lg font-semibold mb-2">Web Development</h2>
+                            <h2 className="text-2xl font-semibold mb-2">Web Development</h2>
                                 <div className="grid grid-cols-6 max-lg:flex max-lg:flex-col gap-4">
                                     <div className="col-span-3 flex flex-col">
-                                        <Progress text="Frontend Development" progress="100" />
+                                        <h3 className='text-lg font-bold'>Frontend Development</h3>
                                         <p className='text-base'>
-                                            I am fluent in <span className='font-bold underline decoration-2 decoration-orange-500'>HTML, CSS and JavaScript</span>. I am currently learning <span className='font-bold underline decoration-2 decoration-pink-500'>React + Next.js</span> as well as <span className='font-bold underline decoration-2 decoration-sky-500'>TypeScript</span>. 
+                                            I am fluent in <span className='font-bold underline decoration-2 decoration-orange-500'>HTML, CSS and JavaScript</span>. I am currently learning <span className='font-bold'>React + Next.js</span> as well as <span className='font-bold'>TypeScript</span>. 
                                         </p>
                                     </div>
                                     <div className="col-span-3 flex flex-col">
-                                        <Progress text="Backend Development" progress="90" />
+                                        <h3 className='text-lg font-bold'>Backend Development</h3>
                                         <p className='text-base'>
                                             I am able to work with backend frameworks such as <span className='font-bold underline decoration-2 decoration-purple-500'>node.js</span>, as well as backend programming languages, such as <span className='font-bold underline decoration-2 decoration-blue-500'>PHP</span>.
                                         </p>
@@ -304,22 +299,22 @@ export default function Projects() {
                         </div>
 
                         <div className="col-span-3">
-                            <Progress text="Embedded Programming" progress="20" />
+                            <h3 className='text-lg font-bold'>Embedded Programming</h3>
                             <p className='text-base'>
                                 I am in the process of learning programming languages such as <span className='font-bold underline decoration-2 decoration-pink-500'>C / C++</span> as well as Arduino programming. 
                             </p>
                         </div>
                         <div className="col-span-3">
-                            <Progress text="Scripting Languages" progress="60" />
+                            <h3 className='text-lg font-bold'>Scripting</h3>
                             <p className='text-base'>
-                                Scripting languages are also a part of my skill list as it is a great language for automating tasks on Linux and BSD machines. 
+                                I am experienced in scripting languages such as: <span className='font-bold'>bash</span> - this helps with automation in coding environments as well as managing Linux services / daemons. 
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <h2 className="text-3xl font-bold my-2">Robotics</h2>   
+                    <h2 className="text-4xl font-bold my-2">Robotics</h2>   
                     <p className="text-base my-2">
                         I have also been involved with a couple of coding competitions and preparations at my current high school, Rugby School Thailand. 
                     </p>
@@ -349,7 +344,7 @@ export default function Projects() {
                                             muted
                                             loop
                                             className='rounded'
-                                            src="/images/photos/school-work/robotics/lego-league/robot-movement-final.webm">
+                                            src="/images/photos/school-work/robotics/lego-league/robot-movement.mp4">
                                         </video>
                                         <span className="text-xs m-2 text-zinc-600 dark:text-zinc-400">First LEGO League Robot Test Run</span>
                                     </div>
@@ -400,27 +395,27 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-4'>
-                    <h2 className="text-3xl font-bold">Science</h2>   
+                <div className='flex flex-col gap-2'>
+                    <h2 className="text-4xl font-bold">Science</h2>   
                     <p className="text-base">
                         I participated in Rugby School Thailand&apos;s <a className="font-bold underline decoration-2 decoration-indigo-500">Senior Open Day</a>, where all academic departments get to present their syllabus and curriculum to visitors that are looking into joining the school. 
-                        I volunteered to come and help the <a className="font-bold underline decoration-2 decoration-sky-500">Physics department</a> in presenting and explaining <a className="font-bold underline decoration-2 decoration-pink-500">IGCSE and A-Level Physics concepts</a>. 
+                        I volunteered to come and help the <a className="font-bold">Physics department</a> in presenting and explaining IGCSE and A-Level Physics concepts. 
                     </p>
 
-                    <div className="grid grid-cols-6 gap-4">
+                    <div className="grid grid-cols-6 mt-2 gap-4">
                         <div className="col-span-6">
                             <div className="grid grid-cols-3 gap-6 max-lg:gap-2 max-lg:flex max-lg:flex-col">   
                                 <div className="col-span-2 grid max-lg:gap-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/school-work/science/2.JPG" href="#" alt="Smile!" dim="false"></Photo>
+                                        <Photo src="/images/photos/school-work/science/2.JPG" href="#" alt="" dim="false"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid max-lg:gap-2 content-center">
                                     <div>
-                                        <Photo src="/images/photos/school-work/science/1.JPG" href="#" alt="Concentrating..." dim="false"></Photo>
+                                        <Photo src="/images/photos/school-work/science/1.JPG" href="#" alt="Pendulum Demonstration" dim="false"></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/school-work/science/3.JPG" href="#" alt="Electrostatic!" dim="false"></Photo>
+                                        <Photo src="/images/photos/school-work/science/3.JPG" href="#" alt="Electrostatic Charges" dim="false"></Photo>
                                     </div>
                                 </div>
                             </div>

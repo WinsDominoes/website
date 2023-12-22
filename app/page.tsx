@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image';
-import React, { useState, useEffect } from "react";
-import Timeline from './components/Timeline'
+import React from "react";
 import Photo from './components/Photo'
 import ContactIcons from './components/ContactIcons';
 import Link from 'next/link';
@@ -10,7 +9,7 @@ export default function Home() {
     return (
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
-                <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
+                <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:items-center max-sm:items-start">
                     <div className="col-span-1">
                         <Image 
                             src="/images/picture.png"
@@ -21,7 +20,7 @@ export default function Home() {
                         />
                     </div>
 
-                    <div className="col-span-2 grid gap-4 content-center">
+                    <div className="col-span-2 grid max-lg:gap-4 max-lg:place-items-center max-sm:place-items-start">
                         <div>
                             <p className="text-5xl font-bold">Thanawin Pattanaphol</p>
                             <p className="text-sm mt-2">ธนาวินทร์ พัฒนผล</p>
@@ -30,29 +29,33 @@ export default function Home() {
                         <ContactIcons />
                     </div>
 
-                    <div className="col-span-3">
-                        <h2 className="text-4xl font-bold mt-2">About Me</h2> 
+                    <div className='col-span-3 flex flex-col place-items-center max-sm:place-items-start'>
+                        <code className='text-lg font-bold'>"I don't want to make a PDF, I'll code one instead."</code>
+                    </div>
+
+                    <div className="col-span-3 mt-[-15px]">
+                        <h2 className="text-4xl font-bold">About Me</h2> 
                         <div className='mt-4 text-lg grid grid-cols-4 max-sm:flex max-sm:flex-col'>
                             <div>
-                                <span className='font-bold underline decoration-2 decoration-green-500'>Nickname</span>: Win
+                                <span className='font-bold'>Nickname</span>: Win
                             </div>
                             <div>
-                                <span className='font-bold underline decoration-2 decoration-indigo-500'>Age</span>: 16
+                                <span className='font-bold'>Age</span>: 16
                             </div>
                             <div>
-                                <span className='font-bold underline decoration-2 decoration-red-500'>Nationality</span>: Thai 🇹🇭
+                                <span className='font-bold'>Nationality</span>: Thai 🇹🇭
                             </div>
                             <div>
-                                <span className='font-bold underline decoration-2 decoration-yellow-500'>Religion</span>: Buddhist
+                                <span className='font-bold'>Religion</span>: Buddhism
                             </div>
                         </div>
                         <p className="text-base mt-4">
-                            My main field of work is creating <a className="font-bold underline decoration-2 decoration-sky-500">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
+                            My main field of work is creating <a className="font-bold">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
                             such as <a className="font-bold">MySQL / MariaDB</a>.
                         </p>
                         <p className="text-base mt-4">
-                            I also have experience working with <a className="font-bold underline decoration-2 decoration-sky-500">server infrastructure</a>. I am currently administering the IT infrastructure (servers, networking, firewalls) 
-                            at my father&apos;s company as well as running <a className="font-bold underline decoration-2 decoration-indigo-500">my own server setup</a>, also known as a <a className="font-bold underline decoration-2 decoration-pink-500">homelab</a>.
+                            My other field of work is with <a className="font-bold underline decoration-2 decoration-sky-500">server infrastructure</a>. I am currently administering the IT infrastructure (servers, networking, firewalls) 
+                            at my father&apos;s company as well as running my own server setup, also known as a homelab.
                         </p>
                     </div>
                 </div>

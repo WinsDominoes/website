@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <p className="text-sm px-4 cursor-pointer font-medium text-black dark:text-gray-300">Made with ❤️ and <Link href="https://github.com/WinsDominoes/website" className="font-bold underline decoration-2 decoration-sky-500">open-source</Link></p>
+                <p className="text-sm px-4 cursor-pointer font-medium text-black dark:text-gray-300">Made with ❤️, <Link href="https://github.com/WinsDominoes/website" className="font-bold">open-source</Link> and self-hosted by me!</p>
             </div>
         </div>
     );

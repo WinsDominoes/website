@@ -10,8 +10,8 @@ import './components.css';
 // const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: "Win's Personal Website",
-	description: "A full-stack developer, high schooler, enjoyer of 60s-80s music, language nerd, an electrician, and a professional terrible-jokes-maker from Thailand.",
+	title: "Thanawin Pattanaphol - ธนาวินทร์ พัฒนผล",
+	description: "A hobbyist full-stack developer, high schooler, enjoyer of 60s-80s music, language nerd, a hobbyist electrician from Thailand.",
 };
 
 export default function RootLayout({

@@ -10,8 +10,8 @@ export default function Hobbies() {
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
-                    <div className="col-span-3">
-                    <h2 className="text-5xl font-bold mt-2">Hobbies</h2> 
+                    <div className="col-span-3 flex flex-col max-lg:items-center max-sm:items-start">
+                        <h2 className="text-5xl font-bold mt-2">Hobbies</h2> 
                         <p className="text-base mt-4">
                             Let&apos;s switch from the mathematical (nerdy) side of things and look at some creativity and arts! In my free time, I like to do <span className="font-bold underline decoration-2 decoration-indigo-500">graphic design</span>, language learning, music, as well as <span className="font-bold underline decoration-2 decoration-red-500">cosplaying</span>. 
                         </p>
@@ -23,7 +23,7 @@ export default function Hobbies() {
                         <h2 className="text-3xl font-bold my-2">Cosplaying</h2> 
                         <div className='flex flex-col gap-4'>
                             <p className="text-base">I started cosplaying in 2021, specifically <span className="font-bold underline decoration-2 decoration-red-500">Marvel</span> and <span className="font-bold underline decoration-2 decoration-blue-500">DC</span> characters. 
-                            I have been really <span className="font-bold underline decoration-2 decoration-indigo-500">fascinated</span> by the world of <span className="font-bold underline decoration-2 decoration-sky-500">superheroes</span> since I was a little kid and getting to be these characters in real life is like a <span className="font-bold underline decoration-2 decoration-pink-500">childhood full-filling dream</span>!</p>
+                            I have been <span className="font-bold">fascinated</span> by the world of <span className="font-bold underline decoration-2 decoration-sky-500">superheroes</span> since I was a little kid and getting to be these characters in real life is like a <span className="font-bold">childhood full-filling dream</span>!</p>
                             <p className="text-base">I have also participated in many cosplay events, such as: CosNatsu, CosSuki, Thailand Comic Con & Thailand Game Show.</p>
                         </div>
                         
@@ -99,9 +99,9 @@ export default function Hobbies() {
                     <div className="grid grid-cols-6 gap-4">
                         <div className="col-span-6">
                             <div className="my-2">
-                                <h2 className="text-2xl font-bold my-2">ATTASTE - 5th Generation</h2> 
+                                <h2 className="text-xl font-bold my-2">ATTASTE - 5th Generation</h2> 
                                 <div className='flex flex-col gap-4'>
-                                    <p className="text-base">I designed the logo for <Link href="https://www.facebook.com/attaste.rmutt"><span className="font-bold underline decoration-2 decoration-sky-500">Attaste&apos;s 5th fashion show</span></Link>, organized by the students of <span className="font-bold underline decoration-2 decoration-indigo-500">RMUTT (Rajamangala University of Technology Thanyaburi)</span>. 
+                                    <p className="text-base">I designed the logo for <Link href="https://www.facebook.com/attaste.rmutt"><span className="font-bold">Attaste&apos;s 5th fashion show</span></Link>, organized by the students of RMUTT <span className="italic">(Rajamangala University of Technology Thanyaburi)</span>. 
                                     The event was held on the 5th of November on the 7th floor of <span className="font-bold underline decoration-2 decoration-red-700">Chatuchak&apos;s ตึกแดงวินเทจ</span></p>
                                 </div>
                             </div> 
@@ -142,7 +142,7 @@ export default function Hobbies() {
                 <div>
                     <div className='my-2'>
                         <h2 className="text-3xl font-bold my-2">Language Learning</h2>       
-                        <p className="text-base">Languages are very important in my life, as they enable me to <span className="font-bold underline decoration-2 decoration-sky-500">communicate</span> with my friends, family, co-workers, in a <span className="font-bold underline decoration-2 decoration-pink-500">clear and effective</span> manner as well as learning them have also made me appreciate the ways that language can be used, whether it is through literature, formal documents or day-to-day media </p> 
+                        <p className="text-base">Languages are very important in my life, as they enable me to <span className="font-bold underline decoration-2 decoration-sky-500">communicate</span> with my friends, family, co-workers, in a <span className="font-bold">clear and effective</span> manner. Learning languages have also made me appreciate the ways that languages can be used, whether it is through literature, formal documents or day-to-day media </p> 
                     </div>
 
                     <div className="grid grid-cols-6">
