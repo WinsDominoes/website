@@ -3,14 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from "react";
 
-const Photo = ({src, href, alt, dim}: any) => {
+const Photo = ({src, href, alt}: any) => {
     let classes = "transition ease-in-out delay-150 hover:scale-105 duration-300";
-    
-    /** if(!dim || dim == "true") {
-        classes = "transition ease-in-out delay-150 opacity-75 hover:opacity-100 hover:scale-105 duration-300"
-    } else if (dim == "false") {
-        classes = "transition ease-in-out delay-150 hover:scale-105 duration-300"
-    } **/
 
     if(!href || href == "#") {
         return (
