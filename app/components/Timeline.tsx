@@ -29,10 +29,10 @@ const Timeline = () => {
         {
             id: 4,
             school: "Rugby School Thailand",
-            period: "9th Grade - Present (10th Grade)",
+            period: "9th Grade - 10th Grade",
             address: "7, 2, Khao Mai Kaew, Bang Lamung District, Chon Buri, Thailand 20150",
             image: "/images/photos/school-logo/rst.png",
-            date: "Present"
+            date: "2023 - 2024"
         }
     ]
 

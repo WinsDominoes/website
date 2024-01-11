@@ -44,4 +44,4 @@ next-env.d.ts
 .*
 
 # diploma
-public/images/photos/diplomas/
+public/images/photos/diplomas/*

@@ -45,6 +45,26 @@ export default function Education() {
                                 </div>
                                 <div className="grid gap-2 content-center">
                                     <div>
+                                        <Photo src="/images/photos/diplomas/ged-transcript.png" href="#" alt="Certain information has been censored for privacy - GED Transcript" dim="false"></Photo>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-span-6">
+                            <div className="grid grid-cols-2 max-sm:flex max-sm:flex-col gap-6">
+                                <div className="col-span-2 flex flex-col gap-2">
+                                    <span className='text-2xl font-bold'>English Proficiency Tests</span>
+                                </div>
+                                <div className="grid gap-2 content-center">
+                                    <div>
+                                        <Photo src="/images/photos/diplomas/ielts_english_test.png" href="" alt="International English Language Testing System - IELTS" dim="false"></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid gap-2 content-center">
+                                <div>
+                                        <Photo src="/images/photos/diplomas/graphical-ielts.png" href="#" alt="Graphical View - IELTS" dim="false"></Photo>
+                                    </div>
+                                    <div>
                                         <Photo src="/images/photos/diplomas/kmitl-tep.png" href="https://cloud.winsdominoes.net/s/3MbnmwHqXkX4axe" alt="KMITL Test of English Proficiency (KMITL-TEP)" dim="false"></Photo>
                                     </div>
                                 </div>
