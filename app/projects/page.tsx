@@ -274,15 +274,10 @@ export default function Projects() {
                         </div>
 
                         <div className="col-span-6">
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 <div className="grid gap-4 content-center">
                                     <div>
                                         <Photo src="/images/photos/software/tts-sanskrit.jpg" href="https://sanskrit.winsdominoes.net" alt="Sanskrit Text-To-Speech"></Photo>
-                                    </div>
-                                </div>
-                                <div className="grid gap-4 content-center">
-                                    <div>
-                                        <Photo src="/images/photos/software/comic-downloader.jpg" href="https://github.com/WinsDominoes/comic-downloader" alt="Comic Downloader"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center">
