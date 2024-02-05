@@ -274,7 +274,7 @@ export default function Projects() {
                         </div>
 
                         <div className="col-span-6">
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                                 <div className="grid gap-4 content-center">
                                     <div>
                                         <Photo src="/images/photos/software/tts-sanskrit.jpg" href="https://sanskrit.winsdominoes.net" alt="Sanskrit Text-To-Speech"></Photo>
@@ -287,7 +287,12 @@ export default function Projects() {
                                 </div>
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/software/winsvideo.png" href="https://github.com/WinsVideo/winsvideo-4.0" alt="WinsVideo - Video Sharing Site"></Photo>
+                                        <Photo src="/images/photos/software/winsvideo.png" href="https://videos.winscloud.net" alt="WinsVideo - Video Sharing Site"></Photo>
+                                    </div>
+                                </div>
+                                <div className="grid gap-4 content-center">
+                                    <div>
+                                        <Photo src="/images/photos/software/datecalc.jpeg" href="https://github.com/WinsDominoes/dateapp" alt="Date Calculator w/ AmyIsCoolz"></Photo>
                                     </div>
                                 </div>
                             </div>
@@ -311,15 +316,12 @@ export default function Projects() {
                 <div>
                     <h2 className="text-4xl font-bold my-2">Robotics</h2>   
                     <p className="text-base my-2">
-                        I have also been involved with a couple of coding competitions and preparations at my current high school, Rugby School Thailand. 
+                        I have also been involved with a couple of coding competitions and preparations at my former school, Rugby School Thailand. 
                     </p>
 
                     <div className="grid grid-cols-6 gap-4">
                         <div className="col-span-6">
                             <h2 className="text-xl font-bold">First LEGO League</h2>
-                            <p className="text-base my-2">
-                                Currently a part of the First LEGO League Team at Rugby School Thailand!
-                            </p>
                         </div>
                         <div className="col-span-6">
                             <div className="grid grid-cols-5 gap-6 max-lg:flex max-lg:flex-col">   
