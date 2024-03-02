@@ -40,7 +40,7 @@ export default function Education() {
 
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/diplomas/ged.png" href="https://cloud.winsdominoes.net/s/3H3ZqDHDc3mNWBe" alt="Test of General Development Education - GED Diploma" dim="false"></Photo>
+                                        <Photo src="/images/photos/diplomas/ged.png" href="https://cloud.winsdominoes.net/s/xSJPxR9oxE5Gtgx" alt="Test of General Development Education - GED Diploma" dim="false"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-2 content-center">
@@ -65,7 +65,7 @@ export default function Education() {
                                         <Photo src="/images/photos/diplomas/graphical-ielts.png" href="#" alt="Graphical View - IELTS" dim="false"></Photo>
                                     </div>
                                     <div>
-                                        <Photo src="/images/photos/diplomas/kmitl-tep.png" href="https://cloud.winsdominoes.net/s/3MbnmwHqXkX4axe" alt="KMITL Test of English Proficiency (KMITL-TEP)" dim="false"></Photo>
+                                        <Photo src="/images/photos/diplomas/kmitl-tep.png" href="https://cloud.winsdominoes.net/s/ZtWxcEZj56bFXCZ" alt="KMITL Test of English Proficiency (KMITL-TEP)" dim="false"></Photo>
                                     </div>
                                 </div>
                             </div>
