@@ -44,7 +44,7 @@ export default function Home() {
                             <p className="text-5xl font-bold">Thanawin Pattanaphol</p>
                             <p className="text-sm mt-2">ธนาวินทร์ พัฒนผล</p>
                         </div>
-                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, high schooler, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
+                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
                     </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
                         platform="mastodon"
                         title="See more posts?"
                         description="Check updates on my Mastodon!"
-                        href="https://social.winscloud.net/@winsdominoes"
+                        href="https://fedi.winscloud.net/@winsdominoes"
                         username="@winsdominoes"
                     />
 
