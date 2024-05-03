@@ -3,11 +3,8 @@ import Footer from "./components/Footer"
 import NextNProgress from "nextjs-progressbar"
 
 import type { Metadata } from 'next';
-// import { Inter } from 'next/font/google';
 import './globals.css';
 import './components.css';
-
-// const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: "Thanawin Pattanaphol - ธนาวินทร์ พัฒนผล",

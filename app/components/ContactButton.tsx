@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import * as icons from 'simple-icons';
 
@@ -17,17 +16,17 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
     let iconFile;
 
     switch (platform.toLowerCase()) {
-        case 'mastodon':
-            buttonColor = "#6364FF";
-            iconFile = icons.siMastodon.svg;
+        case 'activitypub':
+            buttonColor = "#F1007E";
+            iconFile = icons.siActivitypub.svg;
             break;
-        case 'github':
-            buttonColor = "#181717";
-            iconFile = icons.siGithub.svg;
+        case 'git':
+            buttonColor = "#FB923C";
+            iconFile = icons.siForgejo.svg;
             break;
-        case 'discord':
-            buttonColor = "#5865F2";
-            iconFile = icons.siDiscord.svg;
+        case 'matrix':
+            buttonColor = "#000";
+            iconFile = icons.siMatrix.svg;
             break;    
         case 'facebook':
             buttonColor = "#0866FF";
@@ -56,7 +55,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
                         style={
                             { ['backgroundColor' as any] : buttonColor}
                         } 
-                        className="text-white font-bold rounded-lg px-4 py-2.5 shadow-lg flex flex-row gap-2 transition ease-in-out delay-150 hover:scale-110 duration-300">
+                        className="text-white font-bold rounded-xl px-4 py-2.5 shadow-lg flex flex-row gap-2 transition ease-in-out delay-150 hover:scale-110 duration-300">
                         
                         <i 
                             className="text-white" 

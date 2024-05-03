@@ -12,7 +12,7 @@ const Photo = ({src, href, alt}: any) => {
                 <div className="grid content-center">
                     <div className={classes}>
                         <Image 
-                            className="h-auto max-w-full rounded-lg" 
+                            className="h-auto max-w-full rounded-xl" 
                             src={src}
                             width={0} 
                             height={0} 
@@ -35,7 +35,7 @@ const Photo = ({src, href, alt}: any) => {
                     <div className="grid content-center">
                         <div className={classes}>
                             <Image 
-                                className="h-auto max-w-full rounded-lg" 
+                                className="h-auto max-w-full rounded-xl" 
                                 src={src}
                                 width={0} 
                                 height={0} 

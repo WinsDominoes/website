@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image';
 import React from "react";
-import Link from 'next/link';
 import ContactIcons from './components/ContactIcons';
 import PhotoGrid from './components/PhotoGrid';
 import ContactButton from './components/ContactButton';
@@ -41,8 +40,7 @@ export default function Home() {
 
                     <div className="col-span-2 grid max-lg:gap-4 max-lg:place-items-center max-sm:place-items-start">
                         <div>
-                            <p className="text-5xl font-bold">Thanawin Pattanaphol</p>
-                            <p className="text-sm mt-2">ธนาวินทร์ พัฒนผล</p>
+                            <p className="text-5xl font-bold">Win Pattanaphol</p>
                         </div>
                         <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
@@ -54,7 +52,7 @@ export default function Home() {
 
                     <div className="col-span-3 mt-[-15px] flex flex-col gap-4">
                         <h2 className="text-4xl font-bold">About Me</h2> 
-                        <div className='text-lg grid grid-cols-4 max-sm:flex max-sm:flex-col'>
+                        <div className='text-lg grid grid-cols-3 max-sm:flex max-sm:flex-col'>
                             <div>
                                 <span className='font-bold'>Nickname</span>: Win
                             </div>
@@ -64,17 +62,14 @@ export default function Home() {
                             <div>
                                 <span className='font-bold'>Nationality</span>: Thai 🇹🇭
                             </div>
-                            <div>
-                                <span className='font-bold'>Religion</span>: Buddhism
-                            </div>
                         </div>
                         <p>
                             My main field of work is creating <a className="font-bold">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
                             such as <a className="font-bold">MySQL / MariaDB</a>.
                         </p>
                         <p>
-                            My other field of work is with <a className="font-bold underline decoration-2 decoration-sky-500">server infrastructure</a>. I am currently administering the IT infrastructure (servers, networking, firewalls) 
-                            at my father&apos;s company as well as running my own server setup, also known as a homelab.
+                            My other field of work is <a className="font-bold underline decoration-2 decoration-sky-500">server administration</a>. I am running my own self-hosted ecosystem as well as currently administering the IT infrastructure (servers, networking, firewalls) 
+                            at my father&apos;s company.
                         </p>
                     </div>
                 </div>
@@ -95,27 +90,27 @@ export default function Home() {
                     </div>
 
                     <ContactButton 
-                        platform="github"
+                        platform="git"
                         title="Like my work?"
-                        description="Check them out on my GitHub!"
-                        href="https://github.com/WinsDominoes"
-                        username="@WinsDominoes"
+                        description="Check them out on my Git instance!"
+                        href="https://git.winscloud.net/winsdominoes"
+                        username="@winsdominoes"
                     />
 
                     <ContactButton 
-                        platform="mastodon"
+                        platform="activitypub"
                         title="See more posts?"
-                        description="Check updates on my Mastodon!"
+                        description="Check updates on my Fediverse!"
                         href="https://fedi.winscloud.net/@winsdominoes"
                         username="@winsdominoes"
                     />
 
                     <ContactButton 
-                        platform="discord"
+                        platform="matrix"
                         title="Get in touch?"
-                        description="Send me a message on Discord!"
-                        href="#"
-                        username="winsdominoes"
+                        description="Send me a message on Matrix!"
+                        href="https://matrix.to/#/@winsdominoes:matrix.winscloud.net"
+                        username="@winsdominoes"
                     />
                 </div>
             </div>

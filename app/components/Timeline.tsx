@@ -50,7 +50,7 @@ const Timeline = () => {
                             <p className="text-sm text-slate-600 dark:text-slate-100">{address}</p>
                             <p className="text-slate-500 dark:text-slate-100">{period}</p>
                             <Image 
-                                className="h-auto max-w-full rounded-lg" 
+                                className="h-auto max-w-full rounded-xl" 
                                 src={image}
                                 width={200} 
                                 height={200}
