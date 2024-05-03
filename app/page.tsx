@@ -38,7 +38,7 @@ export default function Home() {
                         />
                     </div>
 
-                    <div className="col-span-2 grid max-lg:place-items-center max-sm:place-items-start mt-5">
+                    <div className="col-span-2 grid max-lg:place-items-center max-sm:place-items-start max-lg:gap-4 lg:mt-2">
                         <p className="text-5xl font-bold">Win Pattanaphol</p>
                         <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
