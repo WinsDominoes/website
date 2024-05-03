@@ -38,10 +38,8 @@ export default function Home() {
                         />
                     </div>
 
-                    <div className="col-span-2 grid max-lg:gap-4 max-lg:place-items-center max-sm:place-items-start">
-                        <div>
-                            <p className="text-5xl font-bold">Win Pattanaphol</p>
-                        </div>
+                    <div className="col-span-2 grid max-lg:place-items-center max-sm:place-items-start mt-5">
+                        <p className="text-5xl font-bold">Win Pattanaphol</p>
                         <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
                     </div>
@@ -64,12 +62,12 @@ export default function Home() {
                             </div>
                         </div>
                         <p>
-                            My main field of work is creating <a className="font-bold">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
-                            such as <a className="font-bold">MySQL / MariaDB</a>.
+                            My main field of work is <a className="font-bold underline decoration-2 decoration-sky-500">server administration</a>. I am running my own self-hosted ecosystem as well as currently administering the IT infrastructure (servers, networking, firewalls) 
+                            at my father&apos;s company.
                         </p>
                         <p>
-                            My other field of work is <a className="font-bold underline decoration-2 decoration-sky-500">server administration</a>. I am running my own self-hosted ecosystem as well as currently administering the IT infrastructure (servers, networking, firewalls) 
-                            at my father&apos;s company.
+                            My other field of work is creating <a className="font-bold">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
+                            such as <a className="font-bold">MySQL / MariaDB</a>.
                         </p>
                     </div>
                 </div>

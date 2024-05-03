@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-        font-family: Cantarell, system-ui, sans-serif;
-    }
-}
-
 .wrapper {
     border: 3px solid blue;
 }
