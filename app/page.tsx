@@ -98,7 +98,7 @@ export default function Home() {
                     <ContactButton 
                         platform="activitypub"
                         title="See more posts?"
-                        description="Check updates on my Fediverse!"
+                        description="Check updates on my fediverse profile!"
                         href="https://fedi.winscloud.net/@winsdominoes"
                         username="@winsdominoes"
                     />
