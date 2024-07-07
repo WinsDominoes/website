@@ -301,7 +301,8 @@ export default function Projects() {
                         <div className="col-span-3">
                             <h3 className='text-lg font-bold'>Embedded Programming</h3>
                             <p className='text-base'>
-                                I am in the process of learning programming languages such as <span className='font-bold underline decoration-2 decoration-pink-500'>C / C++</span> as well as Arduino programming. 
+                                I am in the process of learning programming languages such as <span className='font-bold underline decoration-2 decoration-pink-500'>C</span> along with Assembly languages on multiple architectures like 
+                                <span className="font-bold underline decoration-2 decoration-pink-500">x86, RISC-V and 6502</span>. 
                             </p>
                         </div>
                         <div className="col-span-3">

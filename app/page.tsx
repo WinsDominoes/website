@@ -50,7 +50,7 @@ export default function Home() {
 
                     <div className="col-span-3 mt-[-15px] flex flex-col gap-4">
                         <h2 className="text-4xl font-bold">About Me</h2> 
-                        <div className='text-lg grid grid-cols-3 max-sm:flex max-sm:flex-col'>
+                        <div className="text-lg grid grid-cols-3 max-sm:flex max-sm:flex-col">
                             <div>
                                 <span className='font-bold'>Nickname</span>: Win
                             </div>
@@ -62,12 +62,15 @@ export default function Home() {
                             </div>
                         </div>
                         <p>
-                            My main field of work is <a className="font-bold underline decoration-2 decoration-sky-500">server administration</a>. I am running my own self-hosted ecosystem as well as currently administering the IT infrastructure (servers, networking, firewalls) 
+                            My main field of work is <a className="font-bold underline decoration-2 decoration-sky-500">server administration</a>. I am running, <a className="font-bold underline decoration-2 decoration-green-500">WinsCloud</a>, my own self-hosted ecosystem as well as currently administering the IT infrastructure (servers, networking, firewalls) 
                             at my father&apos;s company.
                         </p>
                         <p>
                             My other field of work is creating <a className="font-bold">web applications</a>. I specialize in <a className="font-bold underline decoration-2 decoration-indigo-500">backend development</a> with <a className="font-bold">Node.js</a> and <a className="font-bold">PHP</a>, as well as working with <a className="font-bold underline decoration-2 decoration-indigo-500">relational databases</a>, 
                             such as <a className="font-bold">MySQL / MariaDB</a>.
+                        </p>
+                        <p>I am currently learning <a className="font-bold underline decoration-2 decoration-pink-500">low-level programming</a> using C, along with 
+                            <a className="font-bold underline decoration-2 decoration-pink-500"> x86 and RISC-V Assembly</a> for lower level interactions with hardware.
                         </p>
                     </div>
                 </div>
