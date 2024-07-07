@@ -2,8 +2,6 @@ import * as icons from 'simple-icons';
 import PixelfedIcon from './Extra/Pixelfed';
 import Image from 'next/image';
 
-console.log(icons);
-
 let ContactIcons = () => {
     return (
         <ul className="flex space-x-5">
