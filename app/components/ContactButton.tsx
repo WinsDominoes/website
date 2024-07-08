@@ -32,6 +32,10 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
             buttonColor = "#0866FF";
             iconFile = icons.siFacebook.svg;
             break;
+        case 'peertube':
+            buttonColor = "#F1680D";
+            iconFile = icons.siPeertube.svg;
+            break;
         default:
             buttonColor = "";
             iconFile = "";
@@ -39,7 +43,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
     } 
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 sm:max-lg:items-center">
             <div className="flex flex-col">
                 <p className="text-xl font-bold"> { title } </p>
                 <p className="text-base text-slate-600 dark:text-slate-300">
@@ -47,7 +51,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
                 </p>
             </div>
 
-            <div className="grid grid-col-3">
+            <div>
                 <Link
                     href={ href }
                 >

@@ -7,18 +7,29 @@ import ContactButton from './components/ContactButton';
 
 const frontImages = [
     [
+        { src: '/images/photos/cosplay/tasm-2-asiatique.jpg', href: '/hobbies', alt: 'TASM2 Asiatique Event' },
+        { src: '/images/photos/software/dateapp.jpg', href: '/projects', alt: 'Date Calculator' },
         { src: '/images/photos/iot/raspberrypi.jpg', href: '/projects', alt: 'Raspberry Pi' },
+        { src: '/images/photos/hardware/freebsd.jpg', href: '/projects', alt: 'PC running FreeBSD' },
     ],
-    [
+    [   
+        { src: '/images/photos/events/ai-engineering.jpg', href: '/projects', alt: 'CMKL A.I. Engineering Event' },
         { src: '/images/photos/company/main-server-rack/20231221_151039.jpg', href: '/projects', alt: 'Office Main Rack' },
+        { src: '/images/photos/cosplay/spiderverse.jpg', href: '/hobbies', alt: 'The Spider-Verse Cosplay' },
         { src: '/images/photos/hardware/homelab.jpg', href: '/projects', alt: 'Homelab' },
     ],
     [
+        { src: '/images/photos/hardware/dell-optiplex.jpg', href: '/projects', alt: 'Dell Optiplex Modified' },
         { src: '/images/photos/robotics/robot.jpg', href: '/projects', alt: 'LEGO League'},
-        { src: '/images/photos/cosplay/tasm-2-spider-man-2.jpg', href: '/hobbies', alt: 'Spider-Man 2 PS5 Event'}
+        { src: '/images/photos/software/blackboard.jpg', href: '/projects', alt: 'Blackboard of Memory'},
+        { src: '/images/photos/cosplay/tasm-2-spider-man-2.jpg', href: '/hobbies', alt: 'Spider-Man 2 PS5 Event'},
+        { src: '/images/photos/electrical/solar-panel.jpg', href: '/projects', alt: 'Off-Grid Electrical Work' },
     ],
     [
-        { src: '/images/photos/hardware/hdd.jpg', href: '/projects', alt: 'Storage Server'}
+        { src: '/images/photos/software/winnie-http.png', href: '/projects', alt: 'Homemade webserver'},
+        { src: '/images/photos/hardware/hdd.jpg', href: '/projects', alt: 'Storage Server'},
+        { src: '/images/photos/software/bkk-raindar.png', href: '/projects', alt: 'Bangkok Rain Radar'},
+        { src: '/images/photos/events/the-command-center.jpg', href: '/projects', alt: 'True Digital Park' },
     ]
     
 ];
@@ -28,17 +39,17 @@ export default function Home() {
         <main>
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:items-center max-sm:items-start">
-                    <div className="col-span-1">
+                    <div className="col-span-1 flex justify-center">
                         <Image 
                             src="/images/picture.png"
-                            width={200}
-                            height={200}
+                            width={250}
+                            height={250}
                             alt="Win's Logo"
                             className="rounded-full"
                         />
                     </div>
 
-                    <div className="col-span-2 grid max-lg:place-items-center max-sm:place-items-start max-lg:gap-4 lg:mt-2">
+                    <div className="col-span-2 grid items-center max-lg:place-items-center max-sm:place-items-start max-lg:gap-4 my-6">
                         <p className="text-5xl font-bold">Win Pattanaphol</p>
                         <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
@@ -83,17 +94,18 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 max-md:flex max-md:flex-col justify-items-center">
-                    <div className="col-span-3 justify-self-start">
+                <div className="col-span-4 justify-self-start">
                         <p className="text-4xl font-bold">
                             Contact
                         </p>
                     </div>
 
+                <div className="grid grid-cols-4 gap-2 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col justify-items-center">
+
                     <ContactButton 
                         platform="git"
                         title="Like my work?"
-                        description="Check them out on my Git instance!"
+                        description="Check them out on my Forgejo!"
                         href="https://git.winscloud.net/winsdominoes"
                         username="@winsdominoes"
                     />
@@ -101,10 +113,18 @@ export default function Home() {
                     <ContactButton 
                         platform="activitypub"
                         title="See more posts?"
-                        description="Check updates on my fediverse profile!"
+                        description="Check posts on my Fediverse!"
                         href="https://fedi.winscloud.net/@winsdominoes"
                         username="@winsdominoes"
                     />
+
+                    <ContactButton 
+                        platform="peertube"
+                        title="Watch some videos?"
+                        description="Check my PeerTube page!"
+                        href="https://peertube.winscloud.net/@winsdominoes"
+                        username="@winsdominoes"
+                    />  
 
                     <ContactButton 
                         platform="matrix"
