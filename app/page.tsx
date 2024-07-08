@@ -26,6 +26,7 @@ const frontImages = [
         { src: '/images/photos/electrical/solar-panel.jpg', href: '/projects', alt: 'Off-Grid Electrical Work' },
     ],
     [
+        { src: '/images/photos/cosplay/spiderverse-photo.jpg', href: '/hobbies', alt: 'Spider-Verse Cosplay #2' },
         { src: '/images/photos/software/winnie-http.png', href: '/projects', alt: 'Homemade webserver'},
         { src: '/images/photos/hardware/hdd.jpg', href: '/projects', alt: 'Storage Server'},
         { src: '/images/photos/software/bkk-raindar.png', href: '/projects', alt: 'Bangkok Rain Radar'},
