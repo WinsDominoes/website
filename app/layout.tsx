@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html className={`${inter.className} text-black bg-white dark:text-white dark:bg-slate-900`} lang="en">
-			<body className="antialiased mt-8 mb-8 lg:max-w-screen-xl min-lg:flex min-lg:flex-col xl:mx-auto lg:mx-4 max-lg:grid max-lg:place-items-center max-sm:place-items-start">
+			<body className="antialiased mt-8 mb-8 lg:max-w-screen-xl min-lg:flex min-lg:flex-col 2xl:mx-auto xl:mx-4 lg:mx-4 max-lg:grid max-lg:place-items-center max-sm:place-items-start">
 				<Navbar />
 				{children}
 				<Footer />

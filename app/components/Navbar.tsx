@@ -21,6 +21,11 @@ const Navbar = () => {
             id: 3,
             text: "Hobbies",
             link: "hobbies"
+        },
+        {
+            id: 4,
+            text: "Donate",
+            link: "donate"
         }
     ];
 
