@@ -38,8 +38,8 @@ const frontImages = [
 export default function Home() {
     return (
         <main>
-            <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
-                <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:items-center max-sm:items-start">
+            <div className="min-w-0 mt-6 flex flex-col gap-8 mx-4">
+                <div className="flex flex-col items-center">
                     <div className="col-span-1 flex justify-center">
                         <Image 
                             src="/images/picture.png"
@@ -50,26 +50,22 @@ export default function Home() {
                         />
                     </div>
 
-                    <div className="col-span-2 grid items-center max-lg:place-items-center max-sm:place-items-start max-lg:gap-4 my-6">
+                    <div className="col-span-2 grid text-center gap-4 my-6">
                         <p className="text-5xl font-bold">Win Pattanaphol</p>
-                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist full-stack developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
+                        <p className="text-base">A <a className="font-bold underline decoration-2 decoration-indigo-500">hobbyist developer</a>, undergraduate student, enjoyer of 60s-80s music, language nerd, and a hobbyist electrician.</p>
                         <ContactIcons />
                     </div>
 
-                    <div className='col-span-3 flex flex-col place-items-center max-sm:place-items-start'>
-                        <code className='text-lg max-sm:text-base font-bold'>&quot;I don&apos;t want to make a PDF, I&apos;ll code one instead.&quot;</code>
-                    </div>
-
-                    <div className="col-span-3 mt-[-15px] flex flex-col gap-4">
+                    <div className="col-span-3 flex flex-col gap-4">
                         <h2 className="text-4xl font-bold">About Me</h2> 
-                        <div className="text-lg grid grid-cols-3 max-sm:flex max-sm:flex-col">
-                            <div>
+                        <div className="text-lg grid grid-cols-3 max-sm:flex max-sm:flex-col align-center">
+                            <div className="text-start max-sm:text-left">
                                 <span className='font-bold'>Nickname</span>: Win
                             </div>
-                            <div>
-                                <span className='font-bold'>Age</span>: 16
+                            <div className='text-center max-sm:text-left'>
+                                <span className='font-bold'>Age</span>: 17
                             </div>
-                            <div>
+                            <div className='text-end max-sm:text-left'>
                                 <span className='font-bold'>Nationality</span>: Thai 🇹🇭
                             </div>
                         </div>
@@ -101,8 +97,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                <div className="grid grid-cols-4 gap-2 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col justify-items-center">
-
+                <div className="grid grid-cols-4 gap-2 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
                     <ContactButton 
                         platform="git"
                         title="Like my work?"

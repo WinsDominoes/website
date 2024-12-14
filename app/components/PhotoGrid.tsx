@@ -10,7 +10,7 @@ type PhotoGridProps = {
 
 const PhotoGrid: React.FC<PhotoGridProps> = ({ images }) => {
     return (
-        <div className="grid grid-cols-4 max-sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-4 max-sm:grid-cols-1 max-md:grid-cols-2 gap-6">
             {images.map((item: ImageItem[], index: number) => (
                 <div className="grid gap-4 content-center" key={index}>
                 {item.map((image: ImageItem, idx: number) => (

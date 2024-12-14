@@ -43,7 +43,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({platform, title, descripti
     } 
 
     return (
-        <div className="flex flex-col gap-4 sm:max-lg:items-center">
+        <div className="flex flex-col gap-4 sm:max-lg:items-start">
             <div className="flex flex-col">
                 <p className="text-xl font-bold"> { title } </p>
                 <p className="text-base text-slate-600 dark:text-slate-300">
