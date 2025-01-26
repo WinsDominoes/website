@@ -126,7 +126,7 @@ export default function Home() {
                         platform="matrix"
                         title="Get in touch?"
                         description="Send me a message on Matrix!"
-                        href="https://matrix.to/#/@winsdominoes:matrix.winscloud.net"
+                        href="https://matrix.to/#/@winsdominoes:chat.winscloud.net"
                         username="@winsdominoes"
                     />
                 </div>
