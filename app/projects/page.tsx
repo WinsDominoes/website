@@ -9,7 +9,7 @@ export default function Projects() {
             <div className="min-w-0 mt-6 flex flex-col gap-8 max-lg:mx-4">
                 <div className="grid grid-cols-3 gap-8 max-lg:flex max-lg:flex-col max-lg:justify-center">
                     <div className="col-span-3 flex flex-col max-lg:items-center max-sm:items-start">
-                        <h2 className="text-5xl font-bold mt-2">Projects & Work</h2> 
+                        <h2 className="text-5xl font-bold mt-2">Projects</h2> 
                         <p className="text-base mt-4">
                             Here are the projects that I have made over the years. I mostly focus on the <a className="font-bold  underline decoration-2 decoration-sky-500">web development</a> and <a className="font-bold underline decoration-2 decoration-sky-500">computer system</a> side of things, however, I have also picked up <span className="italic">embedded programming</span> and <span className="italic">electronics</span> over the past couple of months as well. 
                         </p>
@@ -18,7 +18,7 @@ export default function Projects() {
 
                 <div>
                     <div>
-                        <h2 className="text-4xl font-bold my-2">Homelab System</h2> 
+                        <h2 className="text-4xl font-bold my-2">Homelab</h2> 
                         <p className="text-base">In addition to business systems, I also have a homelab! My homelab equipment are inter-connected under the <Link href="https://winscloud.net"><span className="font-bold underline decoration-2 decoration-green-500">WinsCloud</span></Link> ecosystem. 
                         This is where I run most of my <span className="font-bold">self-hosting</span> instances of various <span className="font-bold">open-source software</span> such as file storage servers, music streaming services, network monitors, and so on. </p>
                     </div>
@@ -86,7 +86,7 @@ export default function Projects() {
                         <div className="col-span-3">
                             <h3 className='text-lg font-bold'>Virtualization</h3>
                             <p className='text-base'>
-                                I am able to work with virtualization softwares such as: <span className='font-bold underline decoration-2 decoration-sky-500'>Proxmox, Docker and VMWare</span>. 
+                                I am able to work with virtualization and hypervisor softwares such as: <span className='font-bold underline decoration-2 decoration-sky-500'>Proxmox, Docker and VMWare</span>. 
                             </p>
                         </div>
 
@@ -210,12 +210,12 @@ export default function Projects() {
                             <div className="grid grid-cols-2 gap-6">
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                        <Photo src="/images/photos/software/discord_raindar.png" href="https://winscloud.net" alt="Discord Version"></Photo>
+                                        <Photo src="/images/photos/software/discord_raindar.png" href="https://winscloud.net" alt="Rain Radar Bot - Discord Version"></Photo>
                                     </div>
                                 </div>
                                 <div className="grid gap-4 content-center">
                                     <div>
-                                    <Photo src="/images/photos/software/misskey_raindar.png" href="https://misskey.winscloud.net/@bkkraindarbot" alt="Misskey Version"></Photo>
+                                    <Photo src="/images/photos/software/misskey_raindar.png" href="https://misskey.winscloud.net/@bkkraindarbot" alt="Rain Radar Bot - Misskey Version"></Photo>
                                     </div>
                                 </div>
                             </div>   

@@ -7,30 +7,30 @@ import ContactButton from './components/ContactButton';
 
 const frontImages = [
     [
-        { src: '/images/photos/cosplay/tasm-2-asiatique.jpg', href: '/hobbies', alt: 'TASM2 Asiatique Event' },
+        { src: '/images/photos/hardware/homelab.jpg', href: '/projects', alt: 'Homelab' },
         { src: '/images/photos/software/dateapp.jpg', href: '/projects', alt: 'Date Calculator' },
-        { src: '/images/photos/iot/raspberrypi.jpg', href: '/projects', alt: 'Raspberry Pi' },
         { src: '/images/photos/hardware/freebsd.jpg', href: '/projects', alt: 'PC running FreeBSD' },
+        { src: '/images/photos/cosplay/tasm-2-asiatique.jpg', href: '/hobbies', alt: 'TASM2 Asiatique Event' },
     ],
     [   
         { src: '/images/photos/events/ai-engineering.jpg', href: '/projects', alt: 'CMKL A.I. Engineering Event' },
         { src: '/images/photos/company/main-server-rack/20231221_151039.jpg', href: '/projects', alt: 'Office Main Rack' },
         { src: '/images/photos/cosplay/spiderverse.jpg', href: '/hobbies', alt: 'The Spider-Verse Cosplay' },
-        { src: '/images/photos/hardware/homelab.jpg', href: '/projects', alt: 'Homelab' },
+        { src: '/images/photos/hardware/raspberry_pi.jpg', href: '/projects', alt: 'Pi the Speedtest Server' },
     ],
     [
-        { src: '/images/photos/hardware/dell-optiplex.jpg', href: '/projects', alt: 'Dell Optiplex Modified' },
+        { src: '/images/photos/software/srt_app.png', href: '/projects', alt: 'SRT App' },
         { src: '/images/photos/robotics/robot.jpg', href: '/projects', alt: 'LEGO League'},
-        { src: '/images/photos/software/blackboard.jpg', href: '/projects', alt: 'Blackboard of Memory'},
+        { src: '/images/photos/software/opnsense.jpg', href: '/projects', alt: 'Home Router'},
         { src: '/images/photos/cosplay/tasm-2-spider-man-2.jpg', href: '/hobbies', alt: 'Spider-Man 2 PS5 Event'},
         { src: '/images/photos/electrical/solar-panel.jpg', href: '/projects', alt: 'Off-Grid Electrical Work' },
     ],
     [
-        { src: '/images/photos/cosplay/spiderverse-photo.jpg', href: '/hobbies', alt: 'Spider-Verse Cosplay #2' },
+        { src: '/images/photos/software/misskey_raindar.png', href: '/projects', alt: 'Bangkok Rain Radar'},
         { src: '/images/photos/software/winnie-http.png', href: '/projects', alt: 'Homemade webserver'},
-        { src: '/images/photos/hardware/hdd.jpg', href: '/projects', alt: 'Storage Server'},
-        { src: '/images/photos/software/bkk-raindar.png', href: '/projects', alt: 'Bangkok Rain Radar'},
-        { src: '/images/photos/events/the-command-center.jpg', href: '/projects', alt: 'True Digital Park' },
+        { src: '/images/photos/hardware/server_rack.jpg', href: '/projects', alt: 'WinsCloud'},
+        { src: '/images/photos/software/livyatan.png', href: '/projects', alt: 'Livyatan'},
+        { src: '/images/photos/cosplay/spiderverse-photo.jpg', href: '/hobbies', alt: 'Spider-Verse Cosplay #2' },
     ]
     
 ];
@@ -126,7 +126,7 @@ export default function Home() {
                         platform="matrix"
                         title="Get in touch?"
                         description="Send me a message on Matrix!"
-                        href="https://matrix.to/#/@winsdominoes:matrix.winscloud.net"
+                        href="https://matrix.to/#/@winsdominoes:chat.winscloud.net"
                         username="@winsdominoes"
                     />
                 </div>

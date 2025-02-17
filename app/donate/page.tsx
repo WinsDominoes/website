@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link';
-import Photo from '../components/Photo'
+import Image from 'next/image';
 
 export default function Hobbies() {
     return (
@@ -10,34 +10,50 @@ export default function Hobbies() {
                     <div className="col-span-3 flex flex-col max-lg:items-center max-sm:items-start">
                         <h2 className="text-5xl font-bold mt-2">Donate</h2> 
                         <p className="text-base mt-4">
-                            Want to help me run my WinsCloud Empire? Here are ways you can help support!
+                            Like my services? Want to help me run my WinsCloud Empire? Here are ways you can help support!
                         </p>
                     </div>
                 </div>
 
                 <div className="col-span-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="grid gap-4 content-center">
-                            <div>
-                                <h3 className='text-2xl font-bold my-2'>OpenCollective</h3>
-                                <p className="text-base">
+                        <div className="bg-[#353535] rounded-xl content-center text-center p-4">
+                            <div className="flex place-content-center">
+                                <Image 
+                                    className="h-auto max-w-full rounded-xl" 
+                                    src="/icons/open-collective.png"
+                                    width={0} 
+                                    height={0} 
+                                    sizes="50vw" 
+                                    style={{ width: '100px', height: 'auto' }} 
+                                    alt="Open Collective" 
+                                />
+                            </div>
+                            <div className="mt-4">
+                                <h3 className='text-2xl font-bold mb-2'>OpenCollective</h3>
+                                <p className="text-base break-all">
                                     <Link href="https://opencollective.com/winscloud">https://opencollective.com/winscloud</Link> 
                                 </p>
                             </div>
                         </div>
-                        <div className="grid gap-4 content-center">    
-                            <h3 className='text-2xl font-bold my-2'>Bank Transfer <span className='font-bold underline decoration-2 decoration-red-500'>(Thai Citizens Only)</span></h3>
-                            <p className="text-base">
-                                SCB: 433-1383337
-                            </p>
-                        </div>
-                        <div className="grid gap-4 content-center">
-                            <div>
-                                <h3 className='text-2xl font-bold my-2'>Monero</h3>
+                        <div className="bg-[#353535] rounded-xl content-center text-center p-4">
+                        <div className="flex place-content-center">
+                                <Image 
+                                    className="h-auto max-w-full rounded-xl" 
+                                    src="/icons/monero.png"
+                                    width={0} 
+                                    height={0} 
+                                    sizes="50vw" 
+                                    style={{ width: '100px', height: 'auto' }} 
+                                    alt="Monero" 
+                                />
+                            </div>
+                            <div className="mt-4">
+                                <h3 className='text-2xl font-bold mb-2'>Monero</h3>
                                 <p className="text-base">
-                                    <code>
+                                    <pre className="break-all text-wrap">
                                         467eMkLCwdxBEWsgtY5akKU6gEaN4V39T9sddoKhLv487c8HJ7SqaDSVhTCtVanhyihavuG8Fe3CkYFCAkzdJfChKBH4KYB
-                                    </code>
+                                    </pre>
                                 </p>
                             </div>
                         </div>
